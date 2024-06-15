@@ -1,6 +1,9 @@
-## Similar Document Template Matching Algorithm
+# Design-Project - Similar Document Template matching algorithm
 
-This project aims to classify images into specific classes such as resumes, emails, invoices, or newspapers using PyTorch, TensorFlow, OCR (Optical Character Recognition), and Hugging Face's LayoutLM v2.
+## Research Paper
+https://www.researchgate.net/publication/372935997_Progressive_keypoint_localization_and_refinement_in_image_matching
 
-### > [Dataset Link](https://www.kaggle.com/datasets/pdavpoojan/the-rvlcdip-dataset-test)
+https://www.researchgate.net/publication/359918362_Neural_Graph_Matching_for_Modification_Similarity_Applied_to_Electronic_Document_Comparison
 
+## Datasets
+https://www.kaggle.com/datasets/pdavpoojan/the-rvlcdip-dataset-test
