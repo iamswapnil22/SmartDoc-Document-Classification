@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <Navbar /> {/* Add Navbar here */}
       <header className="App-header" id="home">
-        <h1>AI PDF Summarizer</h1>
+        <h1>SmartDoc - Document Classifier</h1>
       </header>
       <main>
         <div className="upload-container" id="upload">

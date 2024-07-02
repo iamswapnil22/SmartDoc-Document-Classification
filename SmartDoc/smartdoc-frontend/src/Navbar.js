@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          AI PDF Summarizer
+        SmartDoc
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
