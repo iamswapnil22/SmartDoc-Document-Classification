@@ -25,9 +25,9 @@ os.makedirs(SORTED_FOLDER, exist_ok=True)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Download and load the LLaMA model
-model_name_or_path = "TheBloke/Llama-2-13B-chat-GGML"
-model_basename = "llama-2-13b-chat.ggmlv3.q5_1.bin" # the model is in bin format
+# Download and load the LLaMA 3 model
+model_name_or_path = "TheBloke/Llama-3-7B-chat-GGML"
+model_basename = "llama-3-7b-chat.ggmlv3.q5_1.bin"
 model_path = hf_hub_download(repo_id=model_name_or_path, filename=model_basename)
 
 logger.info("Model Path - %s", model_path)
@@ -57,7 +57,7 @@ def extract_text_from_pdf(pdf_file):
     return " ".join(pdf_text)
 
 def doc_class(result):
-    pattern = r"Predicted Class \(One Word\):\\s(\w+)"
+    pattern = r"Predicted Class \(One Word\): (\w+)"
     match = re.search(pattern, result)
     if match:
         return match.group(1)
@@ -74,8 +74,9 @@ def classify_document(file):
     file_path = os.path.join(UPLOAD_FOLDER, file.filename)
     file.save(file_path)
 
+
     # Example of using the Llama model for classification
-    prompt_template = f'''SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email):
+    prompt_template = f'''SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
 
     USER: This is my Text -  {cleaned_text[:500]} Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
 
