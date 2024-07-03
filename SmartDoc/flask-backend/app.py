@@ -4,15 +4,22 @@ import os
 import shutil
 import PyPDF2
 from huggingface_hub import hf_hub_download
-import threading
-from llama_cpp import Llama
-import re
-import time
 from concurrent.futures import ThreadPoolExecutor
 import logging
+import re
+import time
+import google.generativeai as genai
 
+# Initialize Flask app and enable CORS
 app = Flask(__name__)
 CORS(app)
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Initialize Gemini model from Google Generative AI
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 UPLOAD_FOLDER = 'uploads'
 SORTED_FOLDER = 'sorted'
@@ -20,24 +27,6 @@ SORTED_FOLDER = 'sorted'
 # Ensure the upload and sorted folders exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(SORTED_FOLDER, exist_ok=True)
-
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-# Download and load the LLaMA 3 model
-model_name_or_path = "TheBloke/Llama-3-7B-chat-GGML"
-model_basename = "llama-3-7b-chat.ggmlv3.q5_1.bin"
-model_path = hf_hub_download(repo_id=model_name_or_path, filename=model_basename)
-
-logger.info("Model Path - %s", model_path)
-
-lcpp_llm = Llama(   
-    model_path=model_path,
-    n_threads=2,  # CPU cores
-    n_batch=512,  # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
-    n_gpu_layers=12 # Change this value based on your model and your GPU VRAM pool.
-)
 
 def clean_text(text):
     # Remove multiple spaces
@@ -56,54 +45,34 @@ def extract_text_from_pdf(pdf_file):
         pdf_text.append(content)
     return " ".join(pdf_text)
 
-def doc_class(result):
-    pattern = r"Predicted Class \(One Word\): (\w+)"
-    match = re.search(pattern, result)
-    if match:
-        return match.group(1)
-    else:
-        return "Unknown"
-
 def classify_document(file):
     text = extract_text_from_pdf(file)
     cleaned_text = clean_text(text)
 
     logger.info(f"Extracted text from {file.filename}: {cleaned_text[:100]}")  # Print first 100 characters of extracted text for debugging
 
-    # Save the file
-    file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-    file.save(file_path)
+    # Prepare Gemini input
+    input_prompt = f'''SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
 
+    USER: This is my Text -  {cleaned_text[:500]} Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).'''
 
-    # Example of using the Llama model for classification
-    prompt_template = f'''SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+    logger.info("Input Prompt: %s", input_prompt)
 
-    USER: This is my Text -  {cleaned_text[:500]} Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
-
-    Predicted Class (One Word):'''
-    logger.info(prompt_template)
-
-    start_time = time.perf_counter()
     try:
-        response = lcpp_llm(prompt=prompt_template, max_tokens=512, temperature=0.5, top_p=0.95,
-                            repeat_penalty=1.2, top_k=150, echo=True)
+        model = genai.GenerativeModel('gemini-pro')
+        response = model.generate_content([input_prompt, cleaned_text])
+        predicted_class = response.text
     except Exception as e:
-        logger.error("Error during model inference: %s", str(e))
-        return "Error", 0
+        logger.error("Error during Gemini model inference: %s", str(e))
+        return "Unknown", 0
 
-    end_time = time.perf_counter()
-    elapsed_time = end_time - start_time
-
-    logger.info("Elapsed time: %s", elapsed_time)
-    logger.info("Predicted Class: %s", response["choices"][0]["text"])
-
-    document_class = doc_class(response["choices"][0]["text"])
+    logger.info("Predicted Class: %s", predicted_class)
 
     # Move the file to sorted folder
     sorted_path = os.path.join(SORTED_FOLDER, file.filename)
-    shutil.move(file_path, sorted_path)
+    shutil.move(file.filename, sorted_path)
 
-    return document_class, elapsed_time
+    return predicted_class, 0  # Return predicted class and elapsed time (set as 0 for now)
 
 @app.route('/upload', methods=['POST'])
 def upload_files():
