@@ -1,0 +1,119 @@
+2024-07-04 00:45:26,256 - WARNING -  * Debugger is active!
+2024-07-04 00:45:26,260 - INFO -  * Debugger PIN: 124-575-691
+2024-07-04 00:45:36,074 - INFO - Files received: ['abc.pdf', 'dummy.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-04 00:45:36,142 - INFO - Extracted text from Evergreen Contract Template.pdf: P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Da
+2024-07-04 00:45:36,153 - INFO - Extracted text from abc.pdf: Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Dat
+2024-07-04 00:45:36,160 - INFO - Extracted text from dummy.pdf: Dumm y PDF file
+2024-07-04 00:45:36,162 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,168 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer:Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee:Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Email Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,261 - INFO - Extracted text from rental.pdf: RENEWAL OF RENTAL AGREEMENT This AGREEMENT of Rent is made in Bangalore and Executed today the lstth
+2024-07-04 00:45:36,271 - INFO - Extracted text from Employee Equipment Agreement.pdf: Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Dat
+2024-07-04 00:45:36,283 - INFO - Extracted text from Jake_s_Resume.pdf: Jake Ryan 123-456-7890 |jake@su.edu |linkedin.com/in/jake |github.com/jake Education Southwestern Un
+2024-07-04 00:45:36,288 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Dumm y PDF file Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,389 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  RENEWAL OF RENTAL AGREEMENT This AGREEMENT of Rent is made in Bangalore and Executed today the lstth of May 2010 BY AND BETWEEN 1. Mr. Balaji.R Aged about 63 years, No 24 2nd Cross, SBM Colony Mathikere - 560054 Hereinafter referred and called as the ‘Lessor’ of the First part of one part: //AND// 1 Mr.Kartheek R Aged about 31 years, No.81, sri manjunatha nilaya, raju colony, yamalur B angalore -560037. Hereinafter referred and called as the ‘Lessees’ of the second part of the another part: 2. N Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,420 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer: Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee: Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Ema Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,450 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Jake Ryan 123-456-7890 |jake@su.edu |linkedin.com/in/jake |github.com/jake Education Southwestern University Georgetown, TX Bachelor of Arts in Computer Science, Minor in Business Aug. 2018 – May 2021 Blinn College Bryan, TX Associate’s in Liberal Arts Aug. 2014 – May 2018 Experience Undergraduate Research Assistant June 2020 – Present Texas A&M University College Station, TX •Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems •Developed a full-stack Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,626 - INFO - Extracted text from house.pdf: House Rental Contract KNOWN ALL MEN BY THESE PRESENTS: This House Rental Contract, made and entered 
+2024-07-04 00:45:36,629 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\logging\\__init__.py', reloading
+2024-07-04 00:45:36,857 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  House Rental Contract KNOWN ALL MEN BY THESE PRESENTS: This House Rental Contract, made and entered into this 20th day of May 2007 at Manila by and between: Antonio Levy S. Ingles. Jr. and/or Mary Rose C. Ingles , of legal age, with residence and postal address at Unit 2006 EGI Taft Tower 2339 Taft Avenue, Malate, Manila, And herein referred to as the Owner(s), — And — GERALDINE O. GALINATO of legal age, with residence and postal address at 6 Manganese Road, Pilar V illage, Las Pinas, Metro Mani Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,859 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\encodings\\cp1252.py', reloading
+2024-07-04 00:45:36,879 - INFO - Extracted text from NewsPaper.pdf: 1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter H
+2024-07-04 00:45:36,883 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\concurrent\\futures\\thread.py', reloading
+2024-07-04 00:45:36,883 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter Headline news: Launching on the Eco- nomic and Social Sur- vey of Asia and The Pacific 2009 1 Top issue: Collapsed Dam of Situ Gintung, Tangerang, Banten Province 2 Collapsed Dam of Situ Gintung, Tangerang, Banten Province (Continued) 3 Stories from UN agency: Indonesia Plans Moni- toring System on the Impact of the Eco- nomic Crisis on the Poor and Vulnerable 4 Medical Record Man- agement Training Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:45:36,883 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\threading.py', reloading
+2024-07-04 00:45:39,118 - INFO - Predicted Class: contract
+2024-07-04 00:45:39,120 - ERROR - Error moving file abc.pdf: [Errno 2] No such file or directory: 'uploads\\abc.pdf'
+2024-07-04 00:45:39,153 - INFO - Predicted Class: Document Type: N/A
+2024-07-04 00:45:39,154 - ERROR - Error processing file dummy.pdf: [WinError 267] The directory name is invalid: 'sorted\\Document Type: N'
+2024-07-04 00:45:39,577 - INFO - Predicted Class: contract
+2024-07-04 00:45:39,578 - ERROR - Error moving file Employee Equipment Agreement.pdf: [Errno 2] No such file or directory: 'uploads\\Employee Equipment Agreement.pdf'
+2024-07-04 00:45:39,647 - INFO - Predicted Class: contract
+2024-07-04 00:45:39,648 - ERROR - Error moving file Evergreen Contract Template.pdf: [Errno 2] No such file or directory: 'uploads\\Evergreen Contract Template.pdf'
+2024-07-04 00:45:39,710 - INFO - Predicted Class: contract
+2024-07-04 00:45:39,712 - ERROR - Error moving file rental.pdf: [Errno 2] No such file or directory: 'uploads\\rental.pdf'
+2024-07-04 00:45:39,745 - INFO - Predicted Class: Resume
+2024-07-04 00:45:39,747 - ERROR - Error moving file Jake_s_Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Jake_s_Resume.pdf'
+2024-07-04 00:45:39,785 - INFO - Predicted Class: Resume
+2024-07-04 00:45:39,787 - ERROR - Error moving file Swapnil Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Swapnil Resume.pdf'
+2024-07-04 00:45:41,199 - INFO - Predicted Class: NewsPaper
+2024-07-04 00:45:41,201 - ERROR - Error moving file NewsPaper.pdf: [Errno 2] No such file or directory: 'uploads\\NewsPaper.pdf'
+2024-07-04 00:45:41,553 - INFO - Predicted Class: contract
+2024-07-04 00:45:41,555 - ERROR - Error moving file house.pdf: [Errno 2] No such file or directory: 'uploads\\house.pdf'
+2024-07-04 00:45:43,211 - WARNING -  * Debugger is active!
+2024-07-04 00:45:43,217 - INFO -  * Debugger PIN: 124-575-691
+2024-07-04 00:45:45,226 - INFO - 127.0.0.1 - - [04/Jul/2024 00:45:45] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2024-07-04 00:46:58,181 - INFO - Files received: ['Employee Equipment Agreement.pdf']
+2024-07-04 00:46:58,233 - INFO - Extracted text from Employee Equipment Agreement.pdf: Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Dat
+2024-07-04 00:46:58,233 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer: Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee: Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Ema Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:47:00,795 - INFO - Predicted Class: contract
+2024-07-04 00:47:00,797 - ERROR - Error moving file Employee Equipment Agreement.pdf: [Errno 2] No such file or directory: 'uploads\\Employee Equipment Agreement.pdf'
+2024-07-04 00:47:00,799 - INFO - 127.0.0.1 - - [04/Jul/2024 00:47:00] "POST /upload HTTP/1.1" 200 -
+2024-07-04 00:47:17,935 - INFO - 127.0.0.1 - - [04/Jul/2024 00:47:17] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2024-07-04 00:47:18,201 - INFO - 127.0.0.1 - - [04/Jul/2024 00:47:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-04 00:47:42,717 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-04 00:47:42,718 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-04 00:47:42,730 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-04 00:47:44,126 - WARNING -  * Debugger is active!
+2024-07-04 00:47:44,129 - INFO -  * Debugger PIN: 124-575-691
+2024-07-04 00:48:35,197 - INFO - Files received: ['NewsPaper.pdf']
+2024-07-04 00:48:35,497 - INFO - Extracted text from NewsPaper.pdf: 1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter H
+2024-07-04 00:48:35,497 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter Headline news: Launching on the Eco- nomic and Social Sur- vey of Asia and The Pacific 2009 1 Top issue: Collapsed Dam of Situ Gintung, Tangerang, Banten Province 2 Collapsed Dam of Situ Gintung, Tangerang, Banten Province (Continued) 3 Stories from UN agency: Indonesia Plans Moni- toring System on the Impact of the Eco- nomic Crisis on the Poor and Vulnerable 4 Medical Record Man- agement Training Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:48:39,679 - INFO - Predicted Class: NewsPaper
+2024-07-04 00:48:39,681 - ERROR - Error moving file NewsPaper.pdf: [Errno 2] No such file or directory: 'uploads\\NewsPaper.pdf'
+2024-07-04 00:48:39,683 - INFO - 127.0.0.1 - - [04/Jul/2024 00:48:39] "POST /upload HTTP/1.1" 200 -
+2024-07-04 00:50:38,972 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:50:38,973 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:50:38,973 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:50:40,092 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-04 00:50:41,532 - WARNING -  * Debugger is active!
+2024-07-04 00:50:41,536 - INFO -  * Debugger PIN: 124-575-691
+2024-07-04 00:51:25,234 - INFO - Files received: ['Evergreen Contract Template.pdf']
+2024-07-04 00:51:25,269 - INFO - Extracted text from Evergreen Contract Template.pdf: P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Da
+2024-07-04 00:51:25,269 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:51:28,245 - INFO - Predicted Class: contract
+2024-07-04 00:51:28,247 - ERROR - Error moving file Evergreen Contract Template.pdf: [Errno 2] No such file or directory: 'uploads\\Evergreen Contract Template.pdf'
+2024-07-04 00:51:28,248 - INFO - 127.0.0.1 - - [04/Jul/2024 00:51:28] "POST /upload HTTP/1.1" 200 -
+2024-07-04 00:52:24,822 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:52:24,824 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:52:24,825 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:52:25,767 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-04 00:53:31,130 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-04 00:53:32,481 - WARNING -  * Debugger is active!
+2024-07-04 00:53:32,485 - INFO -  * Debugger PIN: 124-575-691
+2024-07-04 00:53:34,583 - INFO - Files received: ['Evergreen Contract Template.pdf']
+2024-07-04 00:53:34,616 - INFO - Extracted text from Evergreen Contract Template.pdf: P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Da
+2024-07-04 00:53:34,616 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-04 00:53:37,407 - INFO - Predicted Class: contract
+2024-07-04 00:53:37,409 - ERROR - Error moving file Evergreen Contract Template.pdf: [Errno 2] No such file or directory: 'uploads\\Evergreen Contract Template.pdf'
+2024-07-04 00:53:37,410 - INFO - 127.0.0.1 - - [04/Jul/2024 00:53:37] "POST /upload HTTP/1.1" 200 -
+2024-07-04 00:53:47,101 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:53:47,102 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:53:47,102 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-04 00:53:47,481 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-04 00:53:48,860 - WARNING -  * Debugger is active!
+2024-07-04 00:53:48,865 - INFO -  * Debugger PIN: 124-575-691

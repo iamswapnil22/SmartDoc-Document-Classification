@@ -5,6 +5,7 @@ import Navbar from './Navbar'; // Import Navbar
 function App() {
   const [files, setFiles] = useState([]);
   const [message, setMessage] = useState('');
+  const [downloadLink, setDownloadLink] = useState('');
 
   const handleFileChange = (event) => {
     setFiles([...event.target.files]);
@@ -28,9 +29,31 @@ function App() {
 
       const data = await response.json();
       setMessage(data.message);
+
+      // Set download link if available
+      if (data.download_link) {
+        setDownloadLink(data.download_link);
+      }
     } catch (error) {
       console.error('Error uploading files:', error);
       setMessage('Failed to upload files');
+    }
+  };
+
+  const handleDownload = async () => {
+    try {
+      const response = await fetch(downloadLink); // Use downloadLink state directly
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sorted_documents.zip';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error('Error downloading files:', error);
+      setMessage('Failed to download files');
     }
   };
 
@@ -67,8 +90,13 @@ function App() {
           <button className="upload-button" onClick={handleUpload}>
             UPLOAD FILES
           </button>
+          {message && <div className="message">{message}</div>}
+          {downloadLink && (
+            <button className="download-button" onClick={handleDownload}>
+              DOWNLOAD SORTED DOCUMENTS
+            </button>
+          )}
         </div>
-        {message && <div className="message">{message}</div>}
         <div className="description">
           <p>
             With AI PDF, you can utilize the powers of artificial intelligence to summarize PDFs for free! The

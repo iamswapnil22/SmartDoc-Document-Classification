@@ -1,21 +1,33 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
 import shutil
 import PyPDF2
-from huggingface_hub import hf_hub_download
+import re
+import google.generativeai as genai
+import zipfile
 from concurrent.futures import ThreadPoolExecutor
 import logging
-import re
-import time
-import google.generativeai as genai
 
 # Initialize Flask app and enable CORS
 app = Flask(__name__)
 CORS(app)
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
+log_filename = 'app.log'
+log_file_path = os.path.join(os.getcwd(), log_filename)
+
+# Configure root logger
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Create a file handler for storing logs to file
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setLevel(logging.INFO)
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+logging.getLogger().addHandler(file_handler)
+
+# Initialize logger for the current module
 logger = logging.getLogger(__name__)
 
 # Initialize Gemini model from Google Generative AI
@@ -61,17 +73,28 @@ def classify_document(file):
     try:
         model = genai.GenerativeModel('gemini-pro')
         response = model.generate_content([input_prompt, cleaned_text])
-        predicted_class = response.text
+        predicted_class = response.text.strip()
     except Exception as e:
         logger.error("Error during Gemini model inference: %s", str(e))
         return "Unknown", 0
 
     logger.info("Predicted Class: %s", predicted_class)
 
-    # Move the file to sorted folder
-    sorted_path = os.path.join(SORTED_FOLDER, file.filename)
-    shutil.move(file.filename, sorted_path)
-
+    # Move the file to sorted folder based on predicted class
+    sorted_path = os.path.join(SORTED_FOLDER, predicted_class)
+    os.makedirs(sorted_path, exist_ok=True)
+    
+    # Adjust file path for moving and logging
+    file_path = os.path.join(UPLOAD_FOLDER, file.filename)
+    sorted_file_path = os.path.join(sorted_path, file.filename)
+    
+    # Move file and handle any errors
+    try:
+        shutil.move(file_path, sorted_file_path)
+    except FileNotFoundError as e:
+        logger.error(f"Error moving file {file.filename}: {str(e)}")
+        return "Unknown", 0
+    
     return predicted_class, 0  # Return predicted class and elapsed time (set as 0 for now)
 
 @app.route('/upload', methods=['POST'])
@@ -83,17 +106,28 @@ def upload_files():
     logger.info("Files received: %s", [file.filename for file in files])
 
     results = []
-    with ThreadPoolExecutor() as executor:
-        futures = {executor.submit(classify_document, file): file for file in files}
-        for future in futures:
-            try:
-                document_class, elapsed_time = future.result()
-                results.append({"file": futures[future].filename, "class": document_class, "time": elapsed_time})
-            except Exception as e:
-                results.append({"file": futures[future].filename, "error": str(e)})
-                logger.error("Error processing file %s: %s", futures[future].filename, str(e))
+    for file in files:
+        document_class, elapsed_time = classify_document(file)
+        results.append({"file": file.filename, "class": document_class, "time": elapsed_time})
 
+    # Provide download link to the sorted documents
+    download_link = '/download'
+    results.append({"message": "Files uploaded and classified successfully.", "download_link": download_link})
+    
     return jsonify(results), 200
+
+@app.route('/download')
+def download():
+    # Zip the 'sorted' folder
+    zip_filename = 'sorted_documents.zip'
+    with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+        for root, _, files in os.walk(SORTED_FOLDER):
+            for file in files:
+                file_path = os.path.join(root, file)
+                zip_file.write(file_path, os.path.relpath(file_path, SORTED_FOLDER))
+
+    # Serve the zip file for download
+    return send_from_directory('.', zip_filename, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True)
