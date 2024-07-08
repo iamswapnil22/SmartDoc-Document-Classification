@@ -117,3 +117,205 @@
 2024-07-04 00:53:47,481 - INFO -  * Restarting with watchdog (windowsapi)
 2024-07-04 00:53:48,860 - WARNING -  * Debugger is active!
 2024-07-04 00:53:48,865 - INFO -  * Debugger PIN: 124-575-691
+2024-07-07 18:49:03,623 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-07 18:49:03,624 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-07 18:49:03,640 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 18:49:04,995 - WARNING -  * Debugger is active!
+2024-07-07 18:49:05,001 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 18:49:08,557 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Scripts\\conda-script.py', reloading
+2024-07-07 18:49:09,454 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 18:49:10,825 - WARNING -  * Debugger is active!
+2024-07-07 18:49:10,829 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 18:50:03,242 - INFO - Files received: ['Apply for AI Intern at Techolution.pdf']
+2024-07-07 18:50:03,345 - INFO - Extracted text from Apply for AI Intern at Techolution.pdf: AI Int ern Job ID - 31311 Basic Details First Name SwapnilMiddle Name (Optional) Last Name ShivpujeE
+2024-07-07 18:50:03,349 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\logging\\__init__.py', reloading
+2024-07-07 18:50:03,395 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\encodings\\cp1252.py', reloading
+2024-07-07 18:50:03,395 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask\\app.py', reloading
+2024-07-07 18:50:03,396 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2024-07-07 18:50:03,396 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2024-07-07 18:50:03,397 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\http\\server.py', reloading
+2024-07-07 18:50:03,397 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\socketserver.py', reloading
+2024-07-07 18:50:03,397 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Lib\\threading.py', reloading
+2024-07-07 18:50:03,952 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 18:50:05,403 - WARNING -  * Debugger is active!
+2024-07-07 18:50:05,408 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 18:50:33,494 - INFO - Files received: ['Apply for AI Intern at Techolution.pdf']
+2024-07-07 18:50:33,593 - INFO - Extracted text from Apply for AI Intern at Techolution.pdf: AI Int ern Job ID - 31311 Basic Details First Name SwapnilMiddle Name (Optional) Last Name ShivpujeE
+2024-07-07 18:50:36,458 - INFO - Predicted Class: Resume
+2024-07-07 18:50:36,461 - ERROR - Error moving file Apply for AI Intern at Techolution.pdf: [Errno 2] No such file or directory: 'uploads\\Apply for AI Intern at Techolution.pdf'
+2024-07-07 18:50:36,462 - INFO - 127.0.0.1 - - [07/Jul/2024 18:50:36] "POST /upload HTTP/1.1" 200 -
+2024-07-07 18:50:40,688 - INFO - Files received: ['Swapnil EMA.pdf']
+2024-07-07 18:50:42,351 - INFO - Predicted Class: Resume
+2024-07-07 18:50:42,353 - ERROR - Error moving file Swapnil EMA.pdf: [Errno 2] No such file or directory: 'uploads\\Swapnil EMA.pdf'
+2024-07-07 18:50:42,354 - INFO - 127.0.0.1 - - [07/Jul/2024 18:50:42] "POST /upload HTTP/1.1" 200 -
+2024-07-07 18:50:58,552 - INFO - Files received: ['1719549237754.pdf']
+2024-07-07 18:50:58,561 - INFO - Extracted text from 1719549237754.pdf: 
+2024-07-07 18:50:58,561 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -   Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 18:50:59,776 - INFO - Predicted Class: I am unable to determine the type of document based on the provided information. The text needs to be provided for me to analyze and classify its type.
+2024-07-07 18:50:59,780 - ERROR - Error moving file 1719549237754.pdf: [Errno 2] No such file or directory: 'uploads\\1719549237754.pdf'
+2024-07-07 18:50:59,780 - INFO - 127.0.0.1 - - [07/Jul/2024 18:50:59] "POST /upload HTTP/1.1" 200 -
+2024-07-07 18:51:30,733 - INFO - Files received: ['GenAI Quesitons.pdf']
+2024-07-07 18:51:31,132 - INFO - Extracted text from GenAI Quesitons.pdf: DataInterview.com Generative AI Generative AI Interview Questions Interview Questions 8585 Seen in S
+2024-07-07 18:51:31,132 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  DataInterview.com Generative AI Generative AI Interview Questions Interview Questions 8585 Seen in Seen in Seen in ML Engineer ML Engineer ML Engineer and and and AI Engineer AI Engineer AI Engineer interviews at interviews at interviews at FAANGs, startups and consulting firms FAANGs, startups and consulting firms FAANGs, startups and consulting firmsDataInterview.com Technical Foundation Explain how the self-attention layer works in Transformer model work 1. Describe the backpropagation algori Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 18:51:33,707 - INFO - Predicted Class: Form
+2024-07-07 18:51:33,709 - ERROR - Error moving file GenAI Quesitons.pdf: [Errno 2] No such file or directory: 'uploads\\GenAI Quesitons.pdf'
+2024-07-07 18:51:33,709 - INFO - 127.0.0.1 - - [07/Jul/2024 18:51:33] "POST /upload HTTP/1.1" 200 -
+2024-07-07 19:01:58,862 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:01:58,862 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:01:58,864 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:01:59,443 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:02:00,824 - WARNING -  * Debugger is active!
+2024-07-07 19:02:00,828 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:02:40,582 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:40,583 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:40,584 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:40,584 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:41,204 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:02:42,584 - WARNING -  * Debugger is active!
+2024-07-07 19:02:42,588 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:02:55,877 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:55,878 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:55,881 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:02:56,539 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:02:57,909 - WARNING -  * Debugger is active!
+2024-07-07 19:02:57,913 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:03:54,322 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:54,323 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:54,324 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:54,564 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:54,565 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:54,565 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:03:55,208 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:03:56,563 - WARNING -  * Debugger is active!
+2024-07-07 19:03:56,569 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:08:53,282 - INFO - Files received: ['Swapnil Shivpuje - CV Review Report.pdf', 'Swapnil EMA.pdf']
+2024-07-07 19:08:56,313 - INFO - 127.0.0.1 - - [07/Jul/2024 19:08:56] "POST /upload HTTP/1.1" 200 -
+2024-07-07 19:09:58,507 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:09:58,509 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:09:58,509 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:09:59,284 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:10:00,715 - WARNING -  * Debugger is active!
+2024-07-07 19:10:00,720 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:10:32,955 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-07 19:10:33,018 - ERROR - Error processing file Evergreen Contract Template.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,047 - ERROR - Error processing file rental.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,134 - ERROR - Error processing file Employee Equipment Agreement.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,204 - ERROR - Error processing file Jake_s_Resume.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,331 - ERROR - Error processing file Swapnil Resume.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,490 - ERROR - Error processing file house.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,729 - ERROR - Error processing file NewsPaper.pdf: module 'google.generativeai' has no attribute 'generate_content'
+2024-07-07 19:10:33,731 - INFO - 127.0.0.1 - - [07/Jul/2024 19:10:33] "POST /upload HTTP/1.1" 200 -
+2024-07-07 19:10:51,164 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:51,165 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:51,166 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:51,880 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:10:53,234 - WARNING -  * Debugger is active!
+2024-07-07 19:10:53,240 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:10:54,793 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:54,793 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:54,794 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:10:55,538 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:10:56,895 - WARNING -  * Debugger is active!
+2024-07-07 19:10:56,899 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:12:29,887 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-07 19:12:29,932 - INFO - Extracted text from Employee Equipment Agreement.pdf: Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Dat
+2024-07-07 19:12:29,932 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer: Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee: Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Ema Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:12:32,821 - INFO - Predicted Class: contract
+2024-07-07 19:12:32,857 - INFO - Extracted text from Evergreen Contract Template.pdf: P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Da
+2024-07-07 19:12:32,857 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:12:34,387 - INFO - Predicted Class: contract
+2024-07-07 19:12:34,421 - INFO - Extracted text from Jake_s_Resume.pdf: Jake Ryan 123-456-7890 |jake@su.edu |linkedin.com/in/jake |github.com/jake Education Southwestern Un
+2024-07-07 19:12:34,422 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Jake Ryan 123-456-7890 |jake@su.edu |linkedin.com/in/jake |github.com/jake Education Southwestern University Georgetown, TX Bachelor of Arts in Computer Science, Minor in Business Aug. 2018 – May 2021 Blinn College Bryan, TX Associate’s in Liberal Arts Aug. 2014 – May 2018 Experience Undergraduate Research Assistant June 2020 – Present Texas A&M University College Station, TX •Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems •Developed a full-stack Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:12:35,827 - INFO - Predicted Class: Resume
+2024-07-07 19:12:36,130 - INFO - Extracted text from NewsPaper.pdf: 1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter H
+2024-07-07 19:12:36,130 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter Headline news: Launching on the Eco- nomic and Social Sur- vey of Asia and The Pacific 2009 1 Top issue: Collapsed Dam of Situ Gintung, Tangerang, Banten Province 2 Collapsed Dam of Situ Gintung, Tangerang, Banten Province (Continued) 3 Stories from UN agency: Indonesia Plans Moni- toring System on the Impact of the Eco- nomic Crisis on the Poor and Vulnerable 4 Medical Record Man- agement Training Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:12:39,081 - INFO - Predicted Class: NewsPaper
+2024-07-07 19:12:39,121 - INFO - Extracted text from rental.pdf: RENEWAL OF RENTAL AGREEMENT This AGREEMENT of Rent is made in Bangalore and Executed today the lstth
+2024-07-07 19:12:39,122 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  RENEWAL OF RENTAL AGREEMENT This AGREEMENT of Rent is made in Bangalore and Executed today the lstth of May 2010 BY AND BETWEEN 1. Mr. Balaji.R Aged about 63 years, No 24 2nd Cross, SBM Colony Mathikere - 560054 Hereinafter referred and called as the ‘Lessor’ of the First part of one part: //AND// 1 Mr.Kartheek R Aged about 31 years, No.81, sri manjunatha nilaya, raju colony, yamalur B angalore -560037. Hereinafter referred and called as the ‘Lessees’ of the second part of the another part: 2. N Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:12:40,802 - INFO - Predicted Class: contract
+2024-07-07 19:12:42,549 - INFO - Predicted Class: Resume
+2024-07-07 19:12:42,555 - INFO - 127.0.0.1 - - [07/Jul/2024 19:12:42] "POST /upload HTTP/1.1" 200 -
+2024-07-07 19:14:30,154 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:30,154 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:30,156 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:30,821 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:14:32,203 - WARNING -  * Debugger is active!
+2024-07-07 19:14:32,209 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:14:32,289 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-07 19:14:32,333 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer: Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee: Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Ema Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:35,317 - INFO - Predicted Class: contract
+2024-07-07 19:14:35,318 - ERROR - Error moving file Employee Equipment Agreement.pdf: [Errno 2] No such file or directory: 'uploads\\Employee Equipment Agreement.pdf'
+2024-07-07 19:14:35,348 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:35,717 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:35,718 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:35,718 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:36,680 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:14:38,003 - WARNING -  * Debugger is active!
+2024-07-07 19:14:38,008 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:14:40,721 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-07 19:14:40,765 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Employee Equipment Agreement This Employee Equipment Agreement ("Agreement") is entered into on [Date], by and between: Employer: Name of Company/Organization: [Employer's Company Name] Address: [Employer's Address] Contact Information: [Employer's Phone Number and Email Address] Employee: Full Name of Employee: [Employee's Full Legal Name] Position/Job Title: [Employee's Job Title] Employee ID or Badge Number: [Employee's ID or Badge Number] Contact Information: [Employee's Phone Number and Ema Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:43,777 - INFO - Predicted Class: contract
+2024-07-07 19:14:43,779 - ERROR - Error moving file Employee Equipment Agreement.pdf: [Errno 2] No such file or directory: 'uploads\\Employee Equipment Agreement.pdf'
+2024-07-07 19:14:43,807 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  P ar ties: This E v er gr een Contr act ("Contr act") is enter ed int o on [Date], ("E ff ectiv e Date "), b y and between: [Y our Company Name], a [Legal Structur e] with its principal place of business at [Company Addr ess] ("Pr o vider "), and [Client' s Company Name], a [Legal Structur e] with its principal place of business at [Client' s Addr ess] ("Client"). 1. Initial T erm: The initial term of this Contr act shall commence on the E ff ectiv e Date and continue for a period of [X] months/ Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:45,244 - INFO - Predicted Class: contract
+2024-07-07 19:14:45,246 - ERROR - Error moving file Evergreen Contract Template.pdf: [Errno 2] No such file or directory: 'uploads\\Evergreen Contract Template.pdf'
+2024-07-07 19:14:45,276 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  Jake Ryan 123-456-7890 |jake@su.edu |linkedin.com/in/jake |github.com/jake Education Southwestern University Georgetown, TX Bachelor of Arts in Computer Science, Minor in Business Aug. 2018 – May 2021 Blinn College Bryan, TX Associate’s in Liberal Arts Aug. 2014 – May 2018 Experience Undergraduate Research Assistant June 2020 – Present Texas A&M University College Station, TX •Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems •Developed a full-stack Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:46,548 - INFO - Predicted Class: Resume
+2024-07-07 19:14:46,549 - ERROR - Error moving file Jake_s_Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Jake_s_Resume.pdf'
+2024-07-07 19:14:46,857 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  1 Launching on The Economic and Social Survey of Asia and the Pacific 2009 UNIC Jakarta Newsletter Headline news: Launching on the Eco- nomic and Social Sur- vey of Asia and The Pacific 2009 1 Top issue: Collapsed Dam of Situ Gintung, Tangerang, Banten Province 2 Collapsed Dam of Situ Gintung, Tangerang, Banten Province (Continued) 3 Stories from UN agency: Indonesia Plans Moni- toring System on the Impact of the Eco- nomic Crisis on the Poor and Vulnerable 4 Medical Record Man- agement Training Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:49,593 - INFO - Predicted Class: NewsPaper
+2024-07-07 19:14:49,595 - ERROR - Error moving file NewsPaper.pdf: [Errno 2] No such file or directory: 'uploads\\NewsPaper.pdf'
+2024-07-07 19:14:49,631 - INFO - Input Prompt: SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
+
+    USER: This is my Text -  RENEWAL OF RENTAL AGREEMENT This AGREEMENT of Rent is made in Bangalore and Executed today the lstth of May 2010 BY AND BETWEEN 1. Mr. Balaji.R Aged about 63 years, No 24 2nd Cross, SBM Colony Mathikere - 560054 Hereinafter referred and called as the ‘Lessor’ of the First part of one part: //AND// 1 Mr.Kartheek R Aged about 31 years, No.81, sri manjunatha nilaya, raju colony, yamalur B angalore -560037. Hereinafter referred and called as the ‘Lessees’ of the second part of the another part: 2. N Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).
+2024-07-07 19:14:51,089 - INFO - Predicted Class: contract
+2024-07-07 19:14:51,091 - ERROR - Error moving file rental.pdf: [Errno 2] No such file or directory: 'uploads\\rental.pdf'
+2024-07-07 19:14:52,611 - INFO - Predicted Class: Resume
+2024-07-07 19:14:52,612 - ERROR - Error moving file Swapnil Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Swapnil Resume.pdf'
+2024-07-07 19:14:52,614 - INFO - 127.0.0.1 - - [07/Jul/2024 19:14:52] "POST /upload HTTP/1.1" 200 -
+2024-07-07 19:14:55,903 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:55,904 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-07 19:14:56,527 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-07 19:14:57,942 - WARNING -  * Debugger is active!
+2024-07-07 19:14:57,946 - INFO -  * Debugger PIN: 328-031-705
+2024-07-07 19:15:00,850 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-07 19:15:03,727 - INFO - Predicted Class: contract
+2024-07-07 19:15:03,729 - ERROR - Error moving file Employee Equipment Agreement.pdf: [Errno 2] No such file or directory: 'uploads\\Employee Equipment Agreement.pdf'
+2024-07-07 19:15:05,171 - INFO - Predicted Class: Contract
+2024-07-07 19:15:05,173 - ERROR - Error moving file Evergreen Contract Template.pdf: [Errno 2] No such file or directory: 'uploads\\Evergreen Contract Template.pdf'
+2024-07-07 19:15:06,707 - INFO - Predicted Class: Resume
+2024-07-07 19:15:06,710 - ERROR - Error moving file Jake_s_Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Jake_s_Resume.pdf'
+2024-07-07 19:15:10,227 - INFO - Predicted Class: NewsPaper
+2024-07-07 19:15:10,228 - ERROR - Error moving file NewsPaper.pdf: [Errno 2] No such file or directory: 'uploads\\NewsPaper.pdf'
+2024-07-07 19:15:11,821 - INFO - Predicted Class: contract
+2024-07-07 19:15:11,822 - ERROR - Error moving file rental.pdf: [Errno 2] No such file or directory: 'uploads\\rental.pdf'
+2024-07-07 19:15:13,307 - INFO - Predicted Class: Resume
+2024-07-07 19:15:13,309 - ERROR - Error moving file Swapnil Resume.pdf: [Errno 2] No such file or directory: 'uploads\\Swapnil Resume.pdf'
+2024-07-07 19:15:13,311 - INFO - 127.0.0.1 - - [07/Jul/2024 19:15:13] "POST /upload HTTP/1.1" 200 -

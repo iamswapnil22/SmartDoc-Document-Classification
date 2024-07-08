@@ -61,14 +61,14 @@ def classify_document(file):
     text = extract_text_from_pdf(file)
     cleaned_text = clean_text(text)
 
-    logger.info(f"Extracted text from {file.filename}: {cleaned_text[:100]}")  # Print first 100 characters of extracted text for debugging
+    # logger.info(f"Extracted text from {file.filename}: {cleaned_text[:100]}")  # Print first 100 characters of extracted text for debugging
 
     # Prepare Gemini input
     input_prompt = f'''SYSTEM: Guess the type of Document for example is it (Resume, contract, NewsPaper, Letter, Email, Form):
 
     USER: This is my Text -  {cleaned_text[:500]} Guess My document type on base of text from (Resume,contract,NewsPaper,Form,Letter,Email).'''
 
-    logger.info("Input Prompt: %s", input_prompt)
+    # logger.info("Input Prompt: %s", input_prompt)
 
     try:
         model = genai.GenerativeModel('gemini-pro')

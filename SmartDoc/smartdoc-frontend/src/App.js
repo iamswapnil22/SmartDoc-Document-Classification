@@ -11,6 +11,11 @@ function App() {
     setFiles([...event.target.files]);
   };
 
+  const handleDrop = (event) => {
+    event.preventDefault();
+    setFiles([...event.dataTransfer.files]);
+  };
+
   const handleUpload = async () => {
     const formData = new FormData();
     files.forEach(file => {
@@ -58,7 +63,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" onDrop={handleDrop} onDragOver={(e) => e.preventDefault()}>
       <Navbar /> {/* Add Navbar here */}
       <header className="App-header" id="home">
         <h1>SmartDoc - Document Classifier</h1>
