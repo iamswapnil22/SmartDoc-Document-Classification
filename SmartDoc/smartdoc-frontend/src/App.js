@@ -98,27 +98,26 @@ function App() {
         </div>
         <div className="description">
           <p>
-            With AI PDF, you can utilize the powers of artificial intelligence to summarize PDFs for free! The
-            interactive chat function lets you request specific information to be summarized and presented to you in a matter of seconds. AI PDF Summarizer lets you understand document contents without having to read through every page.
+            With SmartDoc, you can upload your unsorted documents and have them sorted automatically using the power of artificial intelligence! Our tool analyzes the content of your PDFs, classifies them, and provides you with a zip folder containing your sorted documents.
           </p>
         </div>
         <div className="features" id="features">
-          <Feature text="Chat with a PDF for free, without sign-up" />
-          <Feature text="TLS encryption for secure file processing" />
-          <Feature text="An AI assistant for instant PDFs summaries" />
+          <Feature text="Upload multiple documents easily" />
+          <Feature text="AI-powered classification for accurate sorting" />
+          <Feature text="Secure file processing and quick results" />
         </div>
         <div className="additional-info">
           <InfoSection
-            title="A Free AI for All Things PDF"
-            text="The future is now! Chat with your PDF files just as easily as you would with ChatGPT. Smallpdf's AI PDF is free to use without"
+            title="SmartDoc: Your AI Document Organizer"
+            text="Say goodbye to the hassle of manually sorting documents. With SmartDoc, just upload your files and let our AI handle the rest, providing you with a neatly organized set of documents."
           />
           <InfoSection
-            title="Works on Your Device"
-            text="AI PDF is a browser-based tool. That means that you can use it to summarize PDFs on Mac, Windows, Linux, and mobile. You just"
+            title="Cross-Platform Compatibility"
+            text="Our tool is browser-based and works on any device, whether it's Mac, Windows, Linux, or mobile. Enjoy seamless document organization wherever you are."
           />
           <InfoSection
-            title="Text Recognition for Your PDF Files"
-            text="When you upload a file into AI PDF, our tool uses precise text recognition to give you a summary of its content. You can also ask"
+            title="Advanced Text Recognition"
+            text="SmartDoc uses precise text recognition to understand and classify your documents, ensuring they are sorted into the correct categories."
           />
         </div>
       </main>

@@ -1996,3 +1996,40 @@
 2024-07-09 23:09:33,552 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-07-09 23:09:33,553 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-07-09 23:09:34,142 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-09 23:22:54,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-09 23:22:54,299 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-09 23:22:54,310 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-09 23:22:55,699 - WARNING -  * Debugger is active!
+2024-07-09 23:22:55,704 - INFO -  * Debugger PIN: 328-031-705
+2024-07-09 23:23:52,387 - INFO - Files received: ['KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-07-09 23:23:55,429 - INFO - Predicted Class: Form
+2024-07-09 23:23:58,768 - INFO - Predicted Class: NewsPaper
+2024-07-09 23:23:59,823 - INFO - Predicted Class: Contract
+2024-07-09 23:23:59,827 - INFO - 127.0.0.1 - - [09/Jul/2024 23:23:59] "POST /upload HTTP/1.1" 200 -
+2024-07-09 23:24:15,950 - INFO - Files received: ['KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-07-09 23:24:17,323 - INFO - Predicted Class: Form
+2024-07-09 23:24:20,902 - INFO - Predicted Class: NewsPaper
+2024-07-09 23:24:21,967 - INFO - Predicted Class: contract
+2024-07-09 23:24:21,978 - INFO - 127.0.0.1 - - [09/Jul/2024 23:24:21] "POST /upload HTTP/1.1" 200 -
+2024-07-09 23:24:35,439 - INFO - Files received: ['temp.pdf', 'KYCForm.pdf', 'NewsPaper.pdf']
+2024-07-09 23:24:36,878 - INFO - Predicted Class: Form
+2024-07-09 23:24:38,346 - INFO - Predicted Class: Form
+2024-07-09 23:24:42,124 - INFO - Predicted Class: NewsPaper
+2024-07-09 23:24:42,139 - INFO - 127.0.0.1 - - [09/Jul/2024 23:24:42] "POST /upload HTTP/1.1" 200 -
+2024-07-09 23:24:49,967 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-09 23:24:50,038 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-09 23:24:50,095 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-09 23:24:50,096 - INFO - 127.0.0.1 - - [09/Jul/2024 23:24:50] "GET /download HTTP/1.1" 200 -
+2024-07-09 23:24:50,484 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-09 23:24:52,003 - WARNING -  * Debugger is active!
+2024-07-09 23:24:52,007 - INFO -  * Debugger PIN: 328-031-705
+2024-07-09 23:26:40,672 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha.pdf']
+2024-07-09 23:26:43,189 - INFO - Predicted Class: NewsPaper
+2024-07-09 23:26:44,809 - INFO - Predicted Class: Form
+2024-07-09 23:26:44,812 - INFO - 127.0.0.1 - - [09/Jul/2024 23:26:44] "POST /upload HTTP/1.1" 200 -
+2024-07-09 23:26:48,056 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-09 23:26:48,085 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-09 23:26:48,140 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-09 23:26:48,141 - INFO - 127.0.0.1 - - [09/Jul/2024 23:26:48] "GET /download HTTP/1.1" 200 -
+2024-07-09 23:26:48,961 - INFO -  * Restarting with watchdog (windowsapi)
