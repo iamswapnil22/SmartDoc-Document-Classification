@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
-import Navbar from './Navbar'; // Import Navbar
+import Navbar from './Navbar';
 
 function App() {
   const [files, setFiles] = useState([]);
   const [message, setMessage] = useState('');
+  const [results, setResults] = useState([]);
   const [downloadLink, setDownloadLink] = useState('');
 
   const handleFileChange = (event) => {
@@ -34,10 +35,10 @@ function App() {
 
       const data = await response.json();
       setMessage(data.message);
-
-      // Set download link if available
-      if (data.download_link) {
-        setDownloadLink(data.download_link);
+      setResults(data.filter(item => item.class)); // Filter to show only classification results
+      const downloadData = data.find(item => item.download_link);
+      if (downloadData) {
+        setDownloadLink(`http://localhost:5000${downloadData.download_link}`);
       }
     } catch (error) {
       console.error('Error uploading files:', error);
@@ -45,26 +46,9 @@ function App() {
     }
   };
 
-  const handleDownload = async () => {
-    try {
-      const response = await fetch(downloadLink); // Use downloadLink state directly
-      const blob = await response.blob();
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'sorted_documents.zip';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    } catch (error) {
-      console.error('Error downloading files:', error);
-      setMessage('Failed to download files');
-    }
-  };
-
   return (
     <div className="App" onDrop={handleDrop} onDragOver={(e) => e.preventDefault()}>
-      <Navbar /> {/* Add Navbar here */}
+      <Navbar />
       <header className="App-header" id="home">
         <h1>SmartDoc - Document Classifier</h1>
       </header>
@@ -96,10 +80,20 @@ function App() {
             UPLOAD FILES
           </button>
           {message && <div className="message">{message}</div>}
+          {results.length > 0 && (
+            <div className="results">
+              <h2>Classification Results</h2>
+              <ul>
+                {results.map((result, index) => (
+                  <li key={index}>{result.file} - {result.class}</li>
+                ))}
+              </ul>
+            </div>
+          )}
           {downloadLink && (
-            <button className="download-button" onClick={handleDownload}>
+            <a href={downloadLink} className="download-button" download>
               DOWNLOAD SORTED DOCUMENTS
-            </button>
+            </a>
           )}
         </div>
         <div className="description">
