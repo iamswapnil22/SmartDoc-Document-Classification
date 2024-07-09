@@ -1990,3 +1990,9 @@
 2024-07-09 23:00:20,470 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
 2024-07-09 23:00:20,473 - INFO - 127.0.0.1 - - [09/Jul/2024 23:00:20] "GET /download HTTP/1.1" 200 -
 2024-07-09 23:00:21,620 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-09 23:00:25,165 - WARNING -  * Debugger is active!
+2024-07-09 23:00:25,174 - INFO -  * Debugger PIN: 328-031-705
+2024-07-09 23:09:33,551 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-09 23:09:33,552 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-09 23:09:33,553 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-09 23:09:34,142 - INFO -  * Restarting with watchdog (windowsapi)
