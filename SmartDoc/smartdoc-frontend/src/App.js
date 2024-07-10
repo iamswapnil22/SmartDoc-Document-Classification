@@ -85,6 +85,7 @@ function App() {
           <button className="upload-button upload" onClick={handleUpload} disabled={loading}>
             {loading ? 'UPLOADING...' : 'UPLOAD FILES'}
           </button>
+          {loading && <div className="loading-bar"></div>}
           {message && <div className="message">{message}</div>}
           {results.length > 0 && (
             <div className="results">
@@ -97,14 +98,12 @@ function App() {
             </div>
           )}
           {downloadLink && (
-            <button className="upload-button upload" onClick={downloadLink}>
-              <a href={downloadLink}>
-              DOWNLOAD Zip
-              </a>
-            </button>
+            <a className="upload-button download" href={downloadLink}>
+              DOWNLOAD 
+            </a>
           )}
         </div>
-        {/* <div className="description">
+        <div className="description">
           <p>
             With SmartDoc, you can upload your unsorted documents and have them sorted automatically using the power of artificial intelligence! Our tool analyzes the content of your PDFs, classifies them, and provides you with a zip folder containing your sorted documents.
           </p>
@@ -127,7 +126,7 @@ function App() {
             title="Advanced Text Recognition"
             text="SmartDoc uses precise text recognition to understand and classify your documents, ensuring they are sorted into the correct categories."
           />
-        </div> */}
+        </div>
       </main>
     </div>
   );

@@ -11,16 +11,16 @@ function Navbar() {
         </div>
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href="#home" className="navbar-link">Home</a>
+            <a href="#home" className="navbar-link">HOME</a>
           </li>
           <li className="navbar-item">
-            <a href="#upload" className="navbar-link">Upload</a>
+            <a href="#upload" className="navbar-link">UPLOAD</a>
           </li>
           <li className="navbar-item">
-            <a href="#features" className="navbar-link">Features</a>
+            <a href="#features" className="navbar-link">FEATURES</a>
           </li>
           <li className="navbar-item">
-            <a href="#contact" className="navbar-link">Contact</a>
+            <a href="#contact" className="navbar-link">CONTACT</a>
           </li>
         </ul>
       </div>

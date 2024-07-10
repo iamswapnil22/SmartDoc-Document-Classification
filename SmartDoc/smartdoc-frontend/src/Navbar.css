@@ -1,70 +1,76 @@
 .navbar {
   background-color: hsl(0deg 0.41% 1.14%);
-  padding: 18px;
-  height: 2rem;
-  align-content: center;
-  margin-bottom: 2%;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  padding-right: 50px;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed; /* Fixed position at the top */
+  top: 0; 
+  z-index: 300; /* Ensure it stays above other content */
+  margin-bottom: 0;
+}
 
-  .web-logo{
-    width: 28px;
-    height: 28px;
-    margin-left: 20px;
-    margin-right: 5px;
-  }
-  
-  .navbar-logo {
-    color: white;
-    font-size: 1.4rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-menu {
-    list-style: none;
-    display: flex;  
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-  }
-  
-  .navbar-item {
-    margin-left: 20px;
-  }
-  .navbar-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-    position: relative; /* Needed for positioning the ::after pseudo-element */
-    transition: color 0.5s ease-in-out;
-    
-  }
-  
-  .navbar-link::after {
-    content: '';
-    position: absolute;
-    top: -10px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 6px; 
-    height: 6px; 
-    border-radius: 50%;
-    background-color: transparent; 
-    transition: background-color 0.5s ease-in-out;
-  }
-  
-  .navbar-link:hover {
-    color: rgb(255, 0, 0); 
-  }
-  
-  .navbar-link:hover::after {
-    background-color: rgb(255, 0, 0); 
-  }
-  
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure it spans the full width */
+  padding: 0 20px; /* Added padding for spacing */
+}
+
+.web-logo {
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  margin-right: 10px; /* Increased margin for better spacing */
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  position: relative; /* Needed for positioning the ::after pseudo-element */
+  transition: color 0.5s ease-in-out;
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  bottom: 100%; /* Position above the text */
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px); /* Adjust the vertical position if necessary */
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-link:hover {
+  color: #00b0ff;
+}
+
+.navbar-link:hover::after {
+  background-color: #00b0ff;
+}

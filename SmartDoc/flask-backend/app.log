@@ -2682,3 +2682,69 @@
 2024-07-10 19:30:29,642 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
 2024-07-10 19:30:29,643 - INFO - 127.0.0.1 - - [10/Jul/2024 19:30:29] "GET /download HTTP/1.1" 200 -
 2024-07-10 19:30:30,152 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 19:30:31,614 - WARNING -  * Debugger is active!
+2024-07-10 19:30:31,619 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 20:02:33,802 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf']
+2024-07-10 20:02:40,427 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:02:41,761 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:02:42,825 - INFO - Predicted Class: Form
+2024-07-10 20:02:44,542 - INFO - Predicted Class: Form
+2024-07-10 20:02:45,811 - INFO - Predicted Class: Form
+2024-07-10 20:02:47,193 - INFO - Predicted Class: Form
+2024-07-10 20:02:47,196 - INFO - 127.0.0.1 - - [10/Jul/2024 20:02:47] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:05:31,263 - INFO - Files received: ['Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf']
+2024-07-10 20:05:32,478 - INFO - Predicted Class: Form
+2024-07-10 20:05:33,785 - INFO - Predicted Class: Form
+2024-07-10 20:05:35,400 - INFO - Predicted Class: Form
+2024-07-10 20:05:36,983 - INFO - Predicted Class: Form
+2024-07-10 20:05:38,458 - INFO - Predicted Class: Form
+2024-07-10 20:05:38,460 - INFO - 127.0.0.1 - - [10/Jul/2024 20:05:38] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:05:43,926 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:05:44,021 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:05:44,071 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 20:05:44,072 - INFO - 127.0.0.1 - - [10/Jul/2024 20:05:44] "GET /download HTTP/1.1" 200 -
+2024-07-10 20:05:44,518 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 20:05:46,644 - WARNING -  * Debugger is active!
+2024-07-10 20:05:46,647 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 20:10:21,755 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf']
+2024-07-10 20:10:28,397 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:10:29,615 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:10:30,916 - INFO - Predicted Class: Form
+2024-07-10 20:10:32,100 - INFO - Predicted Class: Form
+2024-07-10 20:10:33,619 - INFO - Predicted Class: Form
+2024-07-10 20:10:35,441 - INFO - Predicted Class: Form
+2024-07-10 20:10:36,797 - INFO - Predicted Class: Form
+2024-07-10 20:10:36,800 - INFO - 127.0.0.1 - - [10/Jul/2024 20:10:36] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:10:38,890 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:10:38,988 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:10:39,038 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 20:10:39,039 - INFO - 127.0.0.1 - - [10/Jul/2024 20:10:39] "GET /download HTTP/1.1" 200 -
+2024-07-10 20:10:39,968 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 20:10:41,374 - WARNING -  * Debugger is active!
+2024-07-10 20:10:41,379 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 20:12:53,538 - INFO - Files received: ['NewsPaper.pdf']
+2024-07-10 20:12:58,226 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:12:58,229 - INFO - 127.0.0.1 - - [10/Jul/2024 20:12:58] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:13:28,549 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf']
+2024-07-10 20:13:33,492 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:13:34,669 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:13:35,767 - INFO - Predicted Class: Form
+2024-07-10 20:13:36,944 - INFO - Predicted Class: Form
+2024-07-10 20:13:38,399 - INFO - Predicted Class: Form
+2024-07-10 20:13:39,766 - INFO - Predicted Class: Form
+2024-07-10 20:13:39,769 - INFO - 127.0.0.1 - - [10/Jul/2024 20:13:39] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:39:20,523 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf']
+2024-07-10 20:39:26,569 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:39:27,592 - INFO - Predicted Class: NewsPaper
+2024-07-10 20:39:28,790 - INFO - Predicted Class: Form
+2024-07-10 20:39:29,882 - INFO - Predicted Class: Form
+2024-07-10 20:39:31,587 - INFO - Predicted Class: Form
+2024-07-10 20:39:33,271 - INFO - Predicted Class: Form
+2024-07-10 20:39:33,285 - INFO - 127.0.0.1 - - [10/Jul/2024 20:39:33] "POST /upload HTTP/1.1" 200 -
+2024-07-10 20:39:34,870 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:39:34,996 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 20:39:35,047 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 20:39:35,047 - INFO - 127.0.0.1 - - [10/Jul/2024 20:39:35] "GET /download HTTP/1.1" 200 -
+2024-07-10 20:39:35,491 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 20:39:37,006 - WARNING -  * Debugger is active!
+2024-07-10 20:39:37,011 - INFO -  * Debugger PIN: 328-031-705

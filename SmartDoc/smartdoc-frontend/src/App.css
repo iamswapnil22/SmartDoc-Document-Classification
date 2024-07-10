@@ -1,21 +1,22 @@
-html{
+html {
   height: 100vh;
+  background-color: rgb(246 248 253/var(--tw-bg-opacity));
   background-image: url('dotted-pattern.png');
   background-repeat: repeat;
-  background-size: contain;
+  background-size: 100%;
 }
+
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
   flex-direction: column;
-
 }
 
 .App-header {
   padding: 24px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  margin-bottom: 2%;
+  margin: 4%;
 }
 
 .upload-container {
@@ -23,11 +24,10 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .upload-box {
-  border: 7px solid rgb(250 173 173);;
+  border: 7px solid rgb(250 173 173);
   padding: 40px;
   border-radius: 10px;
   display: flex;
@@ -61,7 +61,6 @@ html{
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* margin-bottom: 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +69,24 @@ html{
 
 .upload-button.upload {
   width: 200px;
+  margin-top: 20px;
+  background-color: #00b0ff;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.upload-button.download {
+  width: 200px;
+  margin-top: 20px;
+  background-color: #00b0ff;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .description {
@@ -122,11 +139,25 @@ li {
   font-size: 14px;
 }
 
-.file-logo{
+.file-logo {
   width: 30px;
   height: 30px;
 }
 
-.button-text{
+.button-text {
   font-weight: bold;
+}
+
+.loading-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #00b0ff;
+  margin-top: 20px;
+  animation: loading 2s infinite;
+}
+
+@keyframes loading {
+  0% { width: 0%; }
+  50% { width: 50%; }
+  100% { width: 100%; }
 }
