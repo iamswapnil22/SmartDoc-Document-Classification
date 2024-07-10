@@ -7,6 +7,7 @@ function App() {
   const [message, setMessage] = useState('');
   const [results, setResults] = useState([]);
   const [downloadLink, setDownloadLink] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleFileChange = (event) => {
     setFiles([...event.target.files]);
@@ -18,6 +19,7 @@ function App() {
   };
 
   const handleUpload = async () => {
+    setLoading(true);
     const formData = new FormData();
     files.forEach(file => {
       formData.append('files', file);
@@ -43,6 +45,8 @@ function App() {
     } catch (error) {
       console.error('Error uploading files:', error);
       setMessage('Failed to upload files');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -67,7 +71,7 @@ function App() {
             </button>
             <p>or drop files here</p>
           </div>
-          <div>
+          <div className="files-box">
             {files.length > 0 && (
               <ul>
                 {files.map((file, index) => (
@@ -76,8 +80,8 @@ function App() {
               </ul>
             )}
           </div>
-          <button className="upload-button" onClick={handleUpload}>
-            UPLOAD FILES
+          <button className="upload-button upload" onClick={handleUpload} disabled={loading}>
+            {loading ? 'UPLOADING...' : 'UPLOAD FILES'}
           </button>
           {message && <div className="message">{message}</div>}
           {results.length > 0 && (
@@ -91,12 +95,14 @@ function App() {
             </div>
           )}
           {downloadLink && (
-            <a href={downloadLink} className="download-button" download>
-              DOWNLOAD SORTED DOCUMENTS
-            </a>
+            <button className="upload-button upload" onClick={downloadLink}>
+              <a href={downloadLink}>
+              DOWNLOAD Zip
+              </a>
+            </button>
           )}
         </div>
-        <div className="description">
+        {/* <div className="description">
           <p>
             With SmartDoc, you can upload your unsorted documents and have them sorted automatically using the power of artificial intelligence! Our tool analyzes the content of your PDFs, classifies them, and provides you with a zip folder containing your sorted documents.
           </p>
@@ -119,7 +125,7 @@ function App() {
             title="Advanced Text Recognition"
             text="SmartDoc uses precise text recognition to understand and classify your documents, ensuring they are sorted into the correct categories."
           />
-        </div>
+        </div> */}
       </main>
     </div>
   );

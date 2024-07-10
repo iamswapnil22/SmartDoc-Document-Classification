@@ -1,23 +1,38 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
   padding: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .upload-container {
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .upload-box {
   border: 2px dashed #ccc;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
   display: inline-block;
+  width: 500px;
+  height: 200px;
+}
+
+.files-box {
+  border: 2px dashed #ccc;
+  padding: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 500px;
+  margin-top: 20px;
+  min-height: 100px;
 }
 
 .file-input {
@@ -32,6 +47,10 @@
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 10px;
+}
+
+.upload-button.upload {
+  width: 200px;
 }
 
 .description {

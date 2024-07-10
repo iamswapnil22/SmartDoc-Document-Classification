@@ -1,6 +1,8 @@
 .navbar {
-    background-color: #282c34;
+    background-color: hsl(220, 13%, 18%);
     padding: 10px 20px;
+    height: 5rem;
+
   }
   
   .navbar-container {
@@ -17,7 +19,7 @@
   
   .navbar-menu {
     list-style: none;
-    display: flex;
+    display: flex;  
     margin: 0;
     padding: 0;
   }
