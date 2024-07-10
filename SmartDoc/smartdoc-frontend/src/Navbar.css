@@ -1,5 +1,5 @@
 .navbar {
-  background-color: hsl(0deg 0.41% 1.14%);
+  background-color: #212121;
   padding-right: 50px;
   height: 4rem;
   width: 100%;
@@ -68,9 +68,9 @@
 }
 
 .navbar-link:hover {
-  color: #00b0ff;
+  color: #00ADB5;
 }
 
 .navbar-link:hover::after {
-  background-color: #00b0ff;
+  background-color: #00ADB5;
 }

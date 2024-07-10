@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import documentsLogo from './documents.png';
 
 function App() {
@@ -128,6 +129,7 @@ function App() {
           />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

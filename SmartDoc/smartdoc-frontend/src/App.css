@@ -1,9 +1,10 @@
 html {
   height: 100vh;
-  background-color: rgb(246 248 253/var(--tw-bg-opacity));
+  /* background-color: rgb(246 248 253/var(--tw-bg-opacity)); */
+  background-color: #ffffffeb;
   background-image: url('dotted-pattern.png');
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 150%;
 }
 
 .App {
@@ -41,7 +42,7 @@ html {
 }
 
 .files-box {
-  border: 2px dashed #ccc;
+  border: 2px dashed #808085;
   padding: 40px;
   border-radius: 10px;
   display: inline-block;
