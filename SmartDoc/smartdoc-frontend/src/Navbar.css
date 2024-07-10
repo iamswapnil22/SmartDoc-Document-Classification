@@ -1,8 +1,9 @@
 .navbar {
-    background-color: hsl(220, 13%, 18%);
-    padding: 10px 20px;
-    height: 5rem;
-
+  background-color: hsl(0deg 0.41% 1.14%);
+  padding: 18px;
+  height: 2rem;
+  align-content: center;
+  margin-bottom: 2%;
   }
   
   .navbar-container {
@@ -10,11 +11,20 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .web-logo{
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
   
   .navbar-logo {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4rem;
     font-weight: bold;
+    display: flex;
+    align-items: center;
   }
   
   .navbar-menu {
@@ -22,19 +32,39 @@
     display: flex;  
     margin: 0;
     padding: 0;
+    gap: 20px;
   }
   
   .navbar-item {
     margin-left: 20px;
   }
-  
   .navbar-link {
     color: white;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.1em;
+    position: relative; /* Needed for positioning the ::after pseudo-element */
+    transition: color 0.5s ease-in-out;
+    
+  }
+  
+  .navbar-link::after {
+    content: '';
+    position: absolute;
+    top: -10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px; 
+    height: 6px; 
+    border-radius: 50%;
+    background-color: transparent; 
+    transition: background-color 0.5s ease-in-out;
   }
   
   .navbar-link:hover {
-    text-decoration: underline;
+    color: rgb(255, 0, 0); 
+  }
+  
+  .navbar-link:hover::after {
+    background-color: rgb(255, 0, 0); 
   }
   

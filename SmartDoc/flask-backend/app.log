@@ -2207,3 +2207,478 @@
 2024-07-10 12:01:00,381 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
 2024-07-10 12:01:00,383 - INFO - 127.0.0.1 - - [10/Jul/2024 12:01:00] "GET /download HTTP/1.1" 200 -
 2024-07-10 12:01:01,138 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 12:01:06,720 - WARNING -  * Debugger is active!
+2024-07-10 12:01:06,729 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 13:48:58,830 - INFO - Files received: ['Cent_Suvidha.pdf', 'data.pdf', 'dummy.pdf', 'Employee Equipment Agreement.pdf', 'abc.pdf', 'Cent_Suvidha - Copy.pdf']
+2024-07-10 13:50:01,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-10 13:50:01,435 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-10 13:50:01,474 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 13:50:05,229 - WARNING -  * Debugger is active!
+2024-07-10 13:50:05,252 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 13:50:29,014 - INFO - Files received: ['abc.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'data.pdf', 'dummy.pdf', 'Employee Equipment Agreement.pdf']
+2024-07-10 13:50:32,143 - INFO - Predicted Class: contract
+2024-07-10 13:50:33,488 - INFO - Predicted Class: Form
+2024-07-10 13:50:34,993 - INFO - Predicted Class: Form
+2024-07-10 13:50:41,475 - INFO - Predicted Class: NewsPaper
+2024-07-10 13:50:42,706 - INFO - Predicted Class: Form
+2024-07-10 13:50:44,446 - INFO - Predicted Class: contract
+2024-07-10 13:50:44,450 - INFO - 127.0.0.1 - - [10/Jul/2024 13:50:44] "POST /upload HTTP/1.1" 200 -
+2024-07-10 13:50:51,937 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 13:50:52,475 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 13:50:56,094 - WARNING -  * Debugger is active!
+2024-07-10 13:50:56,103 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 13:50:56,285 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 13:50:56,379 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 13:50:56,598 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 13:50:56,600 - INFO - 127.0.0.1 - - [10/Jul/2024 13:50:56] "GET /download HTTP/1.1" 200 -
+2024-07-10 13:50:57,692 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 13:51:01,454 - WARNING -  * Debugger is active!
+2024-07-10 13:51:01,467 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 13:51:01,940 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 13:51:01,942 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 13:51:02,081 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 13:51:02,083 - INFO - 127.0.0.1 - - [10/Jul/2024 13:51:02] "GET /download HTTP/1.1" 200 -
+2024-07-10 13:51:03,105 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 13:51:06,883 - WARNING -  * Debugger is active!
+2024-07-10 13:51:06,895 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:09:24,756 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\archive.py', reloading
+2024-07-10 14:09:24,855 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\buf.py', reloading
+2024-07-10 14:09:24,857 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\callbacks.py', reloading
+2024-07-10 14:09:24,898 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\activations.py', reloading
+2024-07-10 14:09:24,905 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\config.py', reloading
+2024-07-10 14:09:24,940 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\__init__.py', reloading
+2024-07-10 14:09:24,942 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\activations_tf.py', reloading
+2024-07-10 14:09:24,943 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\test\\lib.py', reloading
+2024-07-10 14:09:24,945 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\conftest.py', reloading
+2024-07-10 14:09:24,947 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\util.py', reloading
+2024-07-10 14:09:24,949 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\mman.py', reloading
+2024-07-10 14:09:24,965 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\core.py', reloading
+2024-07-10 14:09:24,967 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\test\\test_buf.py', reloading
+2024-07-10 14:09:24,974 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\agents.py', reloading
+2024-07-10 14:09:24,975 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\_distutils_hack\\override.py', reloading
+2024-07-10 14:09:24,994 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\test\\test_mman.py', reloading
+2024-07-10 14:09:24,997 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\dircache.py', reloading
+2024-07-10 14:09:24,999 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\_yaml\\__init__.py', reloading
+2024-07-10 14:09:25,000 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\composer.py', reloading
+2024-07-10 14:09:25,003 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\audio_utils.py', reloading
+2024-07-10 14:09:25,006 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+2024-07-10 14:09:25,030 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\benchmark\\benchmark.py', reloading
+2024-07-10 14:09:25,055 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\cyaml.py', reloading
+2024-07-10 14:09:25,058 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\exceptions.py', reloading
+2024-07-10 14:09:25,059 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\test\\test_util.py', reloading
+2024-07-10 14:09:25,060 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\fuse.py', reloading
+2024-07-10 14:09:25,062 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\default_tools.py', reloading
+2024-07-10 14:09:25,063 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\cache_utils.py', reloading
+2024-07-10 14:09:25,064 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\smmap\\test\\test_tutorial.py', reloading
+2024-07-10 14:09:25,065 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\constructor.py', reloading
+2024-07-10 14:09:25,069 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\document_question_answering.py', reloading
+2024-07-10 14:09:25,072 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\exceptions.py', reloading
+2024-07-10 14:09:25,075 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\agent_types.py', reloading
+2024-07-10 14:09:25,176 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\events.py', reloading
+2024-07-10 14:09:25,178 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\convert_slow_tokenizers_checkpoints_to_fast.py', reloading
+2024-07-10 14:09:25,179 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\prompts.py', reloading
+2024-07-10 14:09:25,180 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py', reloading
+2024-07-10 14:09:25,289 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\datastructures\\etag.py', reloading
+2024-07-10 14:09:25,290 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\representer.py', reloading
+2024-07-10 14:09:25,292 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\tools.py', reloading
+2024-07-10 14:09:25,294 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\serving.py', reloading
+2024-07-10 14:09:25,296 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\testapp.py', reloading
+2024-07-10 14:09:25,297 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2024-07-10 14:09:25,298 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\dependency_versions_check.py', reloading
+2024-07-10 14:09:25,300 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\urls.py', reloading
+2024-07-10 14:09:25,306 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\transaction.py', reloading
+2024-07-10 14:09:25,308 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\train.py', reloading
+2024-07-10 14:09:25,310 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\sansio\\utils.py', reloading
+2024-07-10 14:09:25,311 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\translation.py', reloading
+2024-07-10 14:09:25,313 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\dependency_versions_table.py', reloading
+2024-07-10 14:09:25,314 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\spec.py', reloading
+2024-07-10 14:09:25,316 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\reader.py', reloading
+2024-07-10 14:09:25,318 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\deepspeed.py', reloading
+2024-07-10 14:09:25,321 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\test.py', reloading
+2024-07-10 14:09:25,323 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\text_to_speech.py', reloading
+2024-07-10 14:09:25,325 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\run.py', reloading
+2024-07-10 14:09:25,326 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2024-07-10 14:09:25,327 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\datastructures\\csp.py', reloading
+2024-07-10 14:09:25,329 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\parser.py', reloading
+2024-07-10 14:09:25,330 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\registry.py', reloading
+2024-07-10 14:09:25,331 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\debug_utils.py', reloading
+2024-07-10 14:09:25,332 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\speech_to_text.py', reloading
+2024-07-10 14:09:25,334 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\resolver.py', reloading
+2024-07-10 14:09:25,335 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py', reloading
+2024-07-10 14:09:25,337 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\pt_to_tf.py', reloading
+2024-07-10 14:09:25,338 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2024-07-10 14:09:25,339 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\nodes.py', reloading
+2024-07-10 14:09:25,340 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\parquet.py', reloading
+2024-07-10 14:09:25,343 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2024-07-10 14:09:25,345 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\agents\\python_interpreter.py', reloading
+2024-07-10 14:09:25,346 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\sansio\\http.py', reloading
+2024-07-10 14:09:25,391 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\tests\\abstract\\mv.py', reloading
+2024-07-10 14:09:25,394 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\wsgi.py', reloading
+2024-07-10 14:09:25,397 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\tokens.py', reloading
+2024-07-10 14:09:25,399 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\feature_extraction_utils.py', reloading
+2024-07-10 14:09:25,401 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\__init__.py', reloading
+2024-07-10 14:09:25,402 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2024-07-10 14:09:25,404 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\data\\__init__.py', reloading
+2024-07-10 14:09:25,405 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\__init__.py', reloading
+2024-07-10 14:09:25,406 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\feature_extraction_sequence_utils.py', reloading
+2024-07-10 14:09:25,409 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\yaml\\serializer.py', reloading
+2024-07-10 14:09:25,413 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\tests\\abstract\\get.py', reloading
+2024-07-10 14:09:25,415 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\tests\\abstract\\put.py', reloading
+2024-07-10 14:09:25,417 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2024-07-10 14:09:25,418 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2024-07-10 14:09:25,419 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\commands\\user.py', reloading
+2024-07-10 14:09:25,422 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\fsspec\\_version.py', reloading
+2024-07-10 14:09:25,423 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2024-07-10 14:09:26,056 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:09:31,028 - WARNING -  * Debugger is active!
+2024-07-10 14:09:31,047 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:09:31,341 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi3\\configuration_phi3.py', reloading
+2024-07-10 14:09:31,343 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phobert\\tokenization_phobert.py', reloading
+2024-07-10 14:09:31,347 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\configuration_pix2struct.py', reloading
+2024-07-10 14:09:31,349 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pop2piano\\processing_pop2piano.py', reloading
+2024-07-10 14:09:31,350 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi\\configuration_phi.py', reloading
+2024-07-10 14:09:31,351 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\plbart\\modeling_plbart.py', reloading
+2024-07-10 14:09:31,352 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\poolformer\\image_processing_poolformer.py', reloading
+2024-07-10 14:09:31,354 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\prophetnet\\__init__.py', reloading
+2024-07-10 14:09:31,356 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pop2piano\\modeling_pop2piano.py', reloading
+2024-07-10 14:09:31,361 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\plbart\\tokenization_plbart.py', reloading
+2024-07-10 14:09:31,362 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phobert\\__init__.py', reloading
+2024-07-10 14:09:31,364 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\poolformer\\modeling_poolformer.py', reloading
+2024-07-10 14:09:31,385 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\plbart\\__init__.py', reloading
+2024-07-10 14:09:31,388 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\poolformer\\__init__.py', reloading
+2024-07-10 14:09:31,390 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pop2piano\\tokenization_pop2piano.py', reloading
+2024-07-10 14:09:31,391 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi\\convert_phi_weights_to_hf.py', reloading
+2024-07-10 14:09:31,393 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\persimmon\\configuration_persimmon.py', reloading
+2024-07-10 14:09:31,394 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi3\\modeling_phi3.py', reloading
+2024-07-10 14:09:31,397 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\convert_pix2struct_original_pytorch_to_hf.py', reloading
+2024-07-10 14:09:31,399 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\persimmon\\convert_persimmon_weights_to_hf.py', reloading
+2024-07-10 14:09:31,401 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pop2piano\\__init__.py', reloading
+2024-07-10 14:09:31,405 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\configuration_perceiver.py', reloading
+2024-07-10 14:09:31,407 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\image_processing_pix2struct.py', reloading
+2024-07-10 14:09:31,408 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi3\\__init__.py', reloading
+2024-07-10 14:09:31,457 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\persimmon\\__init__.py', reloading
+2024-07-10 14:09:31,460 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\feature_extraction_perceiver.py', reloading
+2024-07-10 14:09:31,465 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus_x\\modeling_pegasus_x.py', reloading
+2024-07-10 14:09:31,467 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\convert_pegasus_tf_to_pytorch.py', reloading
+2024-07-10 14:09:31,468 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\modeling_pix2struct.py', reloading
+2024-07-10 14:09:31,471 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\persimmon\\modeling_persimmon.py', reloading
+2024-07-10 14:09:31,473 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi\\__init__.py', reloading
+2024-07-10 14:09:31,474 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\convert_perceiver_haiku_to_pytorch.py', reloading
+2024-07-10 14:09:31,477 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\configuration_pegasus.py', reloading
+2024-07-10 14:09:31,480 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus_x\\configuration_pegasus_x.py', reloading
+2024-07-10 14:09:31,481 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\phi\\modeling_phi.py', reloading
+2024-07-10 14:09:31,489 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\modeling_flax_pegasus.py', reloading
+2024-07-10 14:09:31,491 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\processing_pix2struct.py', reloading
+2024-07-10 14:09:31,493 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus_x\\__init__.py', reloading
+2024-07-10 14:09:31,509 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\paligemma\\configuration_paligemma.py', reloading
+2024-07-10 14:09:31,511 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtst\\configuration_patchtst.py', reloading
+2024-07-10 14:09:31,514 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtsmixer\\configuration_patchtsmixer.py', reloading
+2024-07-10 14:09:31,515 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pix2struct\\__init__.py', reloading
+2024-07-10 14:09:31,517 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\image_processing_perceiver.py', reloading
+2024-07-10 14:09:31,521 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\modeling_pegasus.py', reloading
+2024-07-10 14:09:31,526 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\tqdm\\contrib\\itertools.py', reloading
+2024-07-10 14:09:31,530 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtst\\modeling_patchtst.py', reloading
+2024-07-10 14:09:31,540 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\modeling_perceiver.py', reloading
+2024-07-10 14:09:31,549 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtsmixer\\modeling_patchtsmixer.py', reloading
+2024-07-10 14:09:31,593 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\convert_openai_original_tf_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:31,599 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\convert_owlvit_original_flax_to_hf.py', reloading
+2024-07-10 14:09:31,601 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\image_processing_owlv2.py', reloading
+2024-07-10 14:09:31,605 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\feature_extraction_owlvit.py', reloading
+2024-07-10 14:09:31,607 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\modeling_flax_opt.py', reloading
+2024-07-10 14:09:31,610 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\tokenization_pegasus.py', reloading
+2024-07-10 14:09:31,615 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\tokenization_perceiver.py', reloading
+2024-07-10 14:09:31,618 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\convert_owlv2_to_hf.py', reloading
+2024-07-10 14:09:31,621 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\configuration_oneformer.py', reloading
+2024-07-10 14:09:31,622 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\paligemma\\modeling_paligemma.py', reloading
+2024-07-10 14:09:31,623 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\convert_opt_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:31,625 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\paligemma\\processing_paligemma.py', reloading
+2024-07-10 14:09:31,627 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtsmixer\\__init__.py', reloading
+2024-07-10 14:09:31,630 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\convert_to_hf_oneformer.py', reloading
+2024-07-10 14:09:31,632 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\configuration_openai.py', reloading
+2024-07-10 14:09:31,633 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\modeling_tf_pegasus.py', reloading
+2024-07-10 14:09:31,635 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\perceiver\\__init__.py', reloading
+2024-07-10 14:09:31,641 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\patchtst\\__init__.py', reloading
+2024-07-10 14:09:31,642 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\configuration_opt.py', reloading
+2024-07-10 14:09:31,644 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\configuration_owlv2.py', reloading
+2024-07-10 14:09:31,646 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\paligemma\\convert_paligemma_weights_to_hf.py', reloading
+2024-07-10 14:09:31,647 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\tokenization_pegasus_fast.py', reloading
+2024-07-10 14:09:31,650 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\configuration_owlvit.py', reloading
+2024-07-10 14:09:31,652 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\pipelines\\automatic_speech_recognition.py', reloading
+2024-07-10 14:09:31,655 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\image_processing_owlvit.py', reloading
+2024-07-10 14:09:31,657 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\pegasus\\__init__.py', reloading
+2024-07-10 14:09:31,658 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\modeling_opt.py', reloading
+2024-07-10 14:09:31,660 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\modeling_owlv2.py', reloading
+2024-07-10 14:09:31,661 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\paligemma\\__init__.py', reloading
+2024-07-10 14:09:31,662 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\modeling_openai.py', reloading
+2024-07-10 14:09:31,744 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\__init__.py', reloading
+2024-07-10 14:09:31,746 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\__init__.py', reloading
+2024-07-10 14:09:31,748 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nystromformer\\__init__.py', reloading
+2024-07-10 14:09:31,749 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb_moe\\modeling_nllb_moe.py', reloading
+2024-07-10 14:09:31,753 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\olmo\\__init__.py', reloading
+2024-07-10 14:09:31,757 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\__init__.py', reloading
+2024-07-10 14:09:31,759 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\processing_oneformer.py', reloading
+2024-07-10 14:09:31,762 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nystromformer\\modeling_nystromformer.py', reloading
+2024-07-10 14:09:31,765 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\tokenization_openai_fast.py', reloading
+2024-07-10 14:09:31,767 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nougat\\processing_nougat.py', reloading
+2024-07-10 14:09:31,769 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\olmo\\modeling_olmo.py', reloading
+2024-07-10 14:09:31,771 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb_moe\\convert_nllb_moe_sharded_original_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:31,773 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\processing_owlvit.py', reloading
+2024-07-10 14:09:31,774 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\__init__.py', reloading
+2024-07-10 14:09:31,778 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb_moe\\__init__.py', reloading
+2024-07-10 14:09:31,780 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\__init__.py', reloading
+2024-07-10 14:09:31,782 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\tokenization_openai.py', reloading
+2024-07-10 14:09:31,783 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\modeling_oneformer.py', reloading
+2024-07-10 14:09:31,784 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nystromformer\\convert_nystromformer_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:31,785 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nougat\\image_processing_nougat.py', reloading
+2024-07-10 14:09:31,791 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb_moe\\configuration_nllb_moe.py', reloading
+2024-07-10 14:09:31,796 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlv2\\processing_owlv2.py', reloading
+2024-07-10 14:09:31,798 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\olmo\\convert_olmo_weights_to_hf.py', reloading
+2024-07-10 14:09:31,799 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\opt\\modeling_tf_opt.py', reloading
+2024-07-10 14:09:31,803 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\owlvit\\modeling_owlvit.py', reloading
+2024-07-10 14:09:31,805 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\openai\\modeling_tf_openai.py', reloading
+2024-07-10 14:09:31,806 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nougat\\convert_nougat_to_hf.py', reloading
+2024-07-10 14:09:31,810 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nystromformer\\configuration_nystromformer.py', reloading
+2024-07-10 14:09:31,814 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\olmo\\configuration_olmo.py', reloading
+2024-07-10 14:09:31,816 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\oneformer\\image_processing_oneformer.py', reloading
+2024-07-10 14:09:31,818 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nougat\\__init__.py', reloading
+2024-07-10 14:09:31,831 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb\\tokenization_nllb.py', reloading
+2024-07-10 14:09:31,847 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mvp\\configuration_mvp.py', reloading
+2024-07-10 14:09:31,852 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nougat\\tokenization_nougat_fast.py', reloading
+2024-07-10 14:09:31,854 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\configuration_musicgen_melody.py', reloading
+2024-07-10 14:09:31,856 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen\\configuration_musicgen.py', reloading
+2024-07-10 14:09:31,859 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb\\tokenization_nllb_fast.py', reloading
+2024-07-10 14:09:31,861 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mvp\\modeling_mvp.py', reloading
+2024-07-10 14:09:31,864 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\convert_musicgen_melody_transformers.py', reloading
+2024-07-10 14:09:31,873 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen\\convert_musicgen_transformers.py', reloading
+2024-07-10 14:09:31,903 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\feature_extraction_musicgen_melody.py', reloading
+2024-07-10 14:09:31,904 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mra\\convert_mra_pytorch_to_pytorch.py', reloading
+2024-07-10 14:09:31,906 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpt\\modeling_mpt.py', reloading
+2024-07-10 14:09:31,907 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mvp\\tokenization_mvp.py', reloading
+2024-07-10 14:09:31,909 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen\\modeling_musicgen.py', reloading
+2024-07-10 14:09:31,911 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\configuration_mpnet.py', reloading
+2024-07-10 14:09:31,912 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mt5\\configuration_mt5.py', reloading
+2024-07-10 14:09:31,915 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpt\\configuration_mpt.py', reloading
+2024-07-10 14:09:31,916 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\nllb\\__init__.py', reloading
+2024-07-10 14:09:31,926 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mra\\configuration_mra.py', reloading
+2024-07-10 14:09:31,939 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpt\\__init__.py', reloading
+2024-07-10 14:09:31,943 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mvp\\tokenization_mvp_fast.py', reloading
+2024-07-10 14:09:31,945 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen\\processing_musicgen.py', reloading
+2024-07-10 14:09:31,947 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\modeling_mpnet.py', reloading
+2024-07-10 14:09:31,949 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevitv2\\configuration_mobilevitv2.py', reloading
+2024-07-10 14:09:31,950 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mt5\\modeling_flax_mt5.py', reloading
+2024-07-10 14:09:31,952 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mra\\modeling_mra.py', reloading
+2024-07-10 14:09:31,953 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevitv2\\convert_mlcvnets_to_pytorch.py', reloading
+2024-07-10 14:09:31,976 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\configuration_mobilenet_v2.py', reloading
+2024-07-10 14:09:31,978 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\modeling_tf_mpnet.py', reloading
+2024-07-10 14:09:31,980 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mt5\\modeling_mt5.py', reloading
+2024-07-10 14:09:31,981 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen\\__init__.py', reloading
+2024-07-10 14:09:31,982 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\modeling_musicgen_melody.py', reloading
+2024-07-10 14:09:31,983 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mvp\\__init__.py', reloading
+2024-07-10 14:09:31,985 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mra\\__init__.py', reloading
+2024-07-10 14:09:31,986 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\processing_musicgen_melody.py', reloading
+2024-07-10 14:09:31,988 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\configuration_mobilevit.py', reloading
+2024-07-10 14:09:31,989 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\configuration_mobilenet_v1.py', reloading
+2024-07-10 14:09:31,990 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\convert_mlcvnets_to_pytorch.py', reloading
+2024-07-10 14:09:32,006 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\tokenization_mpnet.py', reloading
+2024-07-10 14:09:32,009 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevitv2\\modeling_mobilevitv2.py', reloading
+2024-07-10 14:09:32,011 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mt5\\modeling_tf_mt5.py', reloading
+2024-07-10 14:09:32,017 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\feature_extraction_mobilevit.py', reloading
+2024-07-10 14:09:32,055 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\image_processing_mobilevit.py', reloading
+2024-07-10 14:09:32,056 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\tokenization_mpnet_fast.py', reloading
+2024-07-10 14:09:32,057 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\feature_extraction_mobilenet_v2.py', reloading
+2024-07-10 14:09:32,062 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mluke\\convert_mluke_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,064 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevitv2\\__init__.py', reloading
+2024-07-10 14:09:32,067 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\convert_original_tf_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,069 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\musicgen_melody\\__init__.py', reloading
+2024-07-10 14:09:32,073 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\configuration_mobilebert.py', reloading
+2024-07-10 14:09:32,078 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mt5\\__init__.py', reloading
+2024-07-10 14:09:32,082 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\convert_original_tf_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,084 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\modeling_mobilevit.py', reloading
+2024-07-10 14:09:32,085 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\image_processing_mobilenet_v2.py', reloading
+2024-07-10 14:09:32,088 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mpnet\\__init__.py', reloading
+2024-07-10 14:09:32,091 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mluke\\tokenization_mluke.py', reloading
+2024-07-10 14:09:32,094 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mixtral\\configuration_mixtral.py', reloading
+2024-07-10 14:09:32,097 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\feature_extraction_mobilenet_v1.py', reloading
+2024-07-10 14:09:32,099 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\convert_mobilebert_original_tf_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,116 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\modeling_tf_mobilevit.py', reloading
+2024-07-10 14:09:32,117 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\configuration_mistral.py', reloading
+2024-07-10 14:09:32,119 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mgp_str\\configuration_mgp_str.py', reloading
+2024-07-10 14:09:32,121 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mixtral\\convert_mixtral_weights_to_hf.py', reloading
+2024-07-10 14:09:32,122 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\modeling_mobilenet_v2.py', reloading
+2024-07-10 14:09:32,127 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\image_processing_mobilenet_v1.py', reloading
+2024-07-10 14:09:32,136 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\modeling_mobilebert.py', reloading
+2024-07-10 14:09:32,140 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mluke\\__init__.py', reloading
+2024-07-10 14:09:32,143 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\modeling_mobilenet_v1.py', reloading
+2024-07-10 14:09:32,157 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_gpt2\\checkpoint_reshaping_and_interoperability.py', reloading
+2024-07-10 14:09:32,175 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mixtral\\__init__.py', reloading
+2024-07-10 14:09:32,176 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mgp_str\\processing_mgp_str.py', reloading
+2024-07-10 14:09:32,179 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart50\\tokenization_mbart50.py', reloading
+2024-07-10 14:09:32,181 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v1\\__init__.py', reloading
+2024-07-10 14:09:32,183 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\tokenization_mobilebert.py', reloading
+2024-07-10 14:09:32,185 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_bert\\configuration_megatron_bert.py', reloading
+2024-07-10 14:09:32,187 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilevit\\__init__.py', reloading
+2024-07-10 14:09:32,190 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mixtral\\modeling_mixtral.py', reloading
+2024-07-10 14:09:32,193 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mgp_str\\modeling_mgp_str.py', reloading
+2024-07-10 14:09:32,194 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\modeling_tf_mobilebert.py', reloading
+2024-07-10 14:09:32,196 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilenet_v2\\__init__.py', reloading
+2024-07-10 14:09:32,198 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\convert_mistral_weights_to_hf.py', reloading
+2024-07-10 14:09:32,244 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_bert\\__init__.py', reloading
+2024-07-10 14:09:32,246 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\__init__.py', reloading
+2024-07-10 14:09:32,248 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\convert_mbart_original_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,249 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mgp_str\\__init__.py', reloading
+2024-07-10 14:09:32,250 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\configuration_maskformer_swin.py', reloading
+2024-07-10 14:09:32,252 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart50\\__init__.py', reloading
+2024-07-10 14:09:32,256 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_bert\\modeling_megatron_bert.py', reloading
+2024-07-10 14:09:32,258 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\modeling_mistral.py', reloading
+2024-07-10 14:09:32,263 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\modeling_tf_mistral.py', reloading
+2024-07-10 14:09:32,268 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_gpt2\\__init__.py', reloading
+2024-07-10 14:09:32,270 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mobilebert\\tokenization_mobilebert_fast.py', reloading
+2024-07-10 14:09:32,272 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\configuration_maskformer.py', reloading
+2024-07-10 14:09:32,278 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\configuration_mbart.py', reloading
+2024-07-10 14:09:32,280 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart50\\tokenization_mbart50_fast.py', reloading
+2024-07-10 14:09:32,281 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mgp_str\\tokenization_mgp_str.py', reloading
+2024-07-10 14:09:32,284 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_gpt2\\convert_megatron_gpt2_checkpoint.py', reloading
+2024-07-10 14:09:32,286 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\modeling_flax_mistral.py', reloading
+2024-07-10 14:09:32,289 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\megatron_bert\\convert_megatron_bert_checkpoint.py', reloading
+2024-07-10 14:09:32,298 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mistral\\__init__.py', reloading
+2024-07-10 14:09:32,301 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\convert_maskformer_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,302 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\modeling_flax_mbart.py', reloading
+2024-07-10 14:09:32,310 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\convert_maskformer_resnet_to_pytorch.py', reloading
+2024-07-10 14:09:32,313 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\feature_extraction_markuplm.py', reloading
+2024-07-10 14:09:32,316 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\modeling_mbart.py', reloading
+2024-07-10 14:09:32,323 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\configuration_marian.py', reloading
+2024-07-10 14:09:32,325 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\sagemaker\\trainer_sm.py', reloading
+2024-07-10 14:09:32,329 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mask2former\\configuration_mask2former.py', reloading
+2024-07-10 14:09:32,334 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\configuration_markuplm.py', reloading
+2024-07-10 14:09:32,340 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\safetensors_conversion.py', reloading
+2024-07-10 14:09:32,352 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\modeling_markuplm.py', reloading
+2024-07-10 14:09:32,354 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mask2former\\image_processing_mask2former.py', reloading
+2024-07-10 14:09:32,355 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\convert_maskformer_swin_to_pytorch.py', reloading
+2024-07-10 14:09:32,357 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\m2m_100\\configuration_m2m_100.py', reloading
+2024-07-10 14:09:32,358 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\modeling_tf_mbart.py', reloading
+2024-07-10 14:09:32,360 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\sagemaker\\__init__.py', reloading
+2024-07-10 14:09:32,362 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\convert_marian_tatoeba_to_pytorch.py', reloading
+2024-07-10 14:09:32,363 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mamba\\configuration_mamba.py', reloading
+2024-07-10 14:09:32,366 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\sagemaker\\training_args_sm.py', reloading
+2024-07-10 14:09:32,367 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mask2former\\convert_mask2former_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,387 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mask2former\\modeling_mask2former.py', reloading
+2024-07-10 14:09:32,389 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\luke\\configuration_luke.py', reloading
+2024-07-10 14:09:32,391 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\feature_extraction_maskformer.py', reloading
+2024-07-10 14:09:32,392 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mamba\\convert_mamba_ssm_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,393 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\processing_markuplm.py', reloading
+2024-07-10 14:09:32,395 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\m2m_100\\convert_m2m100_original_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,396 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\tokenization_mbart.py', reloading
+2024-07-10 14:09:32,399 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\convert_marian_to_pytorch.py', reloading
+2024-07-10 14:09:32,405 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\m2m_100\\modeling_m2m_100.py', reloading
+2024-07-10 14:09:32,406 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\tokenization_mbart_fast.py', reloading
+2024-07-10 14:09:32,408 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longt5\\configuration_longt5.py', reloading
+2024-07-10 14:09:32,408 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\modeling_flax_marian.py', reloading
+2024-07-10 14:09:32,409 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\configuration_lxmert.py', reloading
+2024-07-10 14:09:32,501 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next_video\\diff_llava_next_video.py', reloading
+2024-07-10 14:09:32,524 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next_video\\image_processing_llava_next_video.py', reloading
+2024-07-10 14:09:32,527 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longformer\\modeling_longformer.py', reloading
+2024-07-10 14:09:32,529 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\modeling_tf_lxmert.py', reloading
+2024-07-10 14:09:32,534 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\luke\\tokenization_luke.py', reloading
+2024-07-10 14:09:32,535 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\modeling_tf_marian.py', reloading
+2024-07-10 14:09:32,539 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\__init__.py', reloading
+2024-07-10 14:09:32,541 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\__init__.py', reloading
+2024-07-10 14:09:32,544 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\modeling_maskformer_swin.py', reloading
+2024-07-10 14:09:32,547 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longt5\\modeling_flax_longt5.py', reloading
+2024-07-10 14:09:32,550 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\m2m_100\\__init__.py', reloading
+2024-07-10 14:09:32,553 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\modeling_lxmert.py', reloading
+2024-07-10 14:09:32,557 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\tokenization_markuplm_fast.py', reloading
+2024-07-10 14:09:32,559 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\modeling_maskformer.py', reloading
+2024-07-10 14:09:32,566 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next_video\\convert_llava_next_video_weights_to_hf.py', reloading
+2024-07-10 14:09:32,575 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\luke\\modeling_luke.py', reloading
+2024-07-10 14:09:32,576 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longformer\\convert_longformer_original_pytorch_lightning_to_pytorch.py', reloading
+2024-07-10 14:09:32,579 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longt5\\convert_longt5x_checkpoint_to_flax.py', reloading
+2024-07-10 14:09:32,589 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\modeling_marian.py', reloading
+2024-07-10 14:09:32,599 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mamba\\__init__.py', reloading
+2024-07-10 14:09:32,602 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mbart\\__init__.py', reloading
+2024-07-10 14:09:32,607 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\m2m_100\\tokenization_m2m_100.py', reloading
+2024-07-10 14:09:32,614 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\convert_lxmert_original_tf_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,617 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longformer\\configuration_longformer.py', reloading
+2024-07-10 14:09:32,625 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\luke\\__init__.py', reloading
+2024-07-10 14:09:32,627 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\maskformer\\image_processing_maskformer.py', reloading
+2024-07-10 14:09:32,630 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next_video\\configuration_llava_next_video.py', reloading
+2024-07-10 14:09:32,632 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\markuplm\\tokenization_markuplm.py', reloading
+2024-07-10 14:09:32,634 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mamba\\modeling_mamba.py', reloading
+2024-07-10 14:09:32,636 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next_video\\modeling_llava_next_video.py', reloading
+2024-07-10 14:09:32,638 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\mask2former\\__init__.py', reloading
+2024-07-10 14:09:32,639 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\luke\\convert_luke_original_pytorch_checkpoint_to_pytorch.py', reloading
+2024-07-10 14:09:32,641 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longformer\\modeling_tf_longformer.py', reloading
+2024-07-10 14:09:32,643 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\llava_next\\configuration_llava_next.py', reloading
+2024-07-10 14:09:32,646 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\tokenization_lxmert.py', reloading
+2024-07-10 14:09:32,652 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\marian\\tokenization_marian.py', reloading
+2024-07-10 14:09:32,659 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\longt5\\modeling_longt5.py', reloading
+2024-07-10 14:09:32,664 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\tornado\\escape.py', reloading
+2024-07-10 14:09:32,668 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\transformers\\models\\lxmert\\tokenization_lxmert_fast.py', reloading
+2024-07-10 14:09:33,196 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:09:38,920 - WARNING -  * Debugger is active!
+2024-07-10 14:09:38,931 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:45:17,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-10 14:45:17,493 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-10 14:45:17,533 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:45:21,126 - WARNING -  * Debugger is active!
+2024-07-10 14:45:21,135 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:46:01,440 - INFO - Files received: ['Cent_Suvidha.pdf']
+2024-07-10 14:46:04,330 - INFO - Predicted Class: Form
+2024-07-10 14:46:04,335 - INFO - 127.0.0.1 - - [10/Jul/2024 14:46:04] "POST /upload HTTP/1.1" 200 -
+2024-07-10 14:46:16,463 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:16,491 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:16,798 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:46:20,340 - WARNING -  * Debugger is active!
+2024-07-10 14:46:20,352 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:46:20,543 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:20,549 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:20,658 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 14:46:20,659 - INFO - 127.0.0.1 - - [10/Jul/2024 14:46:20] "GET /download HTTP/1.1" 200 -
+2024-07-10 14:46:21,914 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:46:25,419 - WARNING -  * Debugger is active!
+2024-07-10 14:46:25,435 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 14:46:31,935 - INFO - Files received: ['Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf']
+2024-07-10 14:46:34,780 - INFO - Predicted Class: Form
+2024-07-10 14:46:36,213 - INFO - Predicted Class: Form
+2024-07-10 14:46:37,962 - INFO - Predicted Class: Form
+2024-07-10 14:46:39,798 - INFO - Predicted Class: Form
+2024-07-10 14:46:41,744 - INFO - Predicted Class: Form
+2024-07-10 14:46:41,751 - INFO - 127.0.0.1 - - [10/Jul/2024 14:46:41] "POST /upload HTTP/1.1" 200 -
+2024-07-10 14:46:46,910 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:47,022 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 14:46:47,144 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 14:46:47,146 - INFO - 127.0.0.1 - - [10/Jul/2024 14:46:47] "GET /download HTTP/1.1" 200 -
+2024-07-10 14:46:47,773 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 14:46:51,510 - WARNING -  * Debugger is active!
+2024-07-10 14:46:51,520 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 18:53:09,117 - INFO - 127.0.0.1 - - [10/Jul/2024 18:53:09] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-07-10 19:29:54,757 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-07-10 19:30:01,716 - INFO - Predicted Class: NewsPaper
+2024-07-10 19:30:02,888 - INFO - Predicted Class: NewsPaper
+2024-07-10 19:30:04,037 - INFO - Predicted Class: Form
+2024-07-10 19:30:05,302 - INFO - Predicted Class: Form
+2024-07-10 19:30:06,869 - INFO - Predicted Class: Form
+2024-07-10 19:30:11,556 - INFO - Predicted Class: Form
+2024-07-10 19:30:13,165 - INFO - Predicted Class: Form
+2024-07-10 19:30:14,572 - INFO - Predicted Class: Form
+2024-07-10 19:30:17,865 - INFO - Predicted Class: NewsPaper
+2024-07-10 19:30:18,901 - INFO - Predicted Class: contract
+2024-07-10 19:30:18,905 - INFO - 127.0.0.1 - - [10/Jul/2024 19:30:18] "POST /upload HTTP/1.1" 200 -
+2024-07-10 19:30:22,096 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:22,281 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:22,443 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 19:30:24,051 - WARNING -  * Debugger is active!
+2024-07-10 19:30:24,056 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 19:30:24,134 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:24,214 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:24,274 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 19:30:24,274 - INFO - 127.0.0.1 - - [10/Jul/2024 19:30:24] "GET /download HTTP/1.1" 200 -
+2024-07-10 19:30:25,343 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 19:30:26,729 - WARNING -  * Debugger is active!
+2024-07-10 19:30:26,734 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 19:30:29,595 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:29,595 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 19:30:29,642 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 19:30:29,643 - INFO - 127.0.0.1 - - [10/Jul/2024 19:30:29] "GET /download HTTP/1.1" 200 -
+2024-07-10 19:30:30,152 - INFO -  * Restarting with watchdog (windowsapi)

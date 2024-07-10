@@ -1,11 +1,12 @@
 import React from 'react';
 import './Navbar.css';
-
+import webLogo from './docs.png';
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
+        <img src={webLogo} alt='file logo' className='web-logo'></img>
         SmartDoc
         </div>
         <ul className="navbar-menu">

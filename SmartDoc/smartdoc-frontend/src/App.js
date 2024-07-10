@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Navbar from './Navbar';
+import documentsLogo from './documents.png';
 
 function App() {
   const [files, setFiles] = useState([]);
@@ -58,7 +59,7 @@ function App() {
       </header>
       <main>
         <div className="upload-container" id="upload">
-          <div className="upload-box">
+          <div className="upload-box ">
             <input
               type="file"
               className="file-input"
@@ -67,7 +68,8 @@ function App() {
               style={{ display: 'none' }}
             />
             <button className="upload-button" onClick={() => document.querySelector('.file-input').click()}>
-              CHOOSE FILES
+            <img src={documentsLogo} alt='file logo' className='file-logo'></img>
+              <p className='button-text'>CHOOSE FILES</p>
             </button>
             <p>or drop files here</p>
           </div>

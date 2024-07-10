@@ -1,12 +1,21 @@
+html{
+  height: 100vh;
+  background-image: url('dotted-pattern.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
   flex-direction: column;
+
 }
 
 .App-header {
-  padding: 20px;
+  padding: 24px;
   color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 2%;
 }
 
 .upload-container {
@@ -14,15 +23,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .upload-box {
-  border: 2px dashed #ccc;
+  border: 7px solid rgb(250 173 173);;
   padding: 40px;
   border-radius: 10px;
-  display: inline-block;
-  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(220 46 46);
   height: 200px;
+  color: white;
 }
 
 .files-box {
@@ -41,12 +56,16 @@
 
 .upload-button {
   padding: 10px 20px;
-  background-color: #00b0ff;
-  color: white;
+  background-color: #fff;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .upload-button.upload {
@@ -101,4 +120,13 @@ ul {
 li {
   margin: 5px 0;
   font-size: 14px;
+}
+
+.file-logo{
+  width: 30px;
+  height: 30px;
+}
+
+.button-text{
+  font-weight: bold;
 }
