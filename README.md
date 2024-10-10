@@ -7,3 +7,6 @@ https://www.researchgate.net/publication/359918362_Neural_Graph_Matching_for_Mod
 
 ## Datasets
 https://www.kaggle.com/datasets/pdavpoojan/the-rvlcdip-dataset-test
+
+## GPT
+SW - https://chatgpt.com/c/67076788-6120-8003-8cb1-e67a0f780e7b
