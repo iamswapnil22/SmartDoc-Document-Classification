@@ -4697,3 +4697,5 @@
 2024-10-10 19:17:26,873 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\cloud\\storage\\version.py', reloading
 2024-10-10 19:17:26,874 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\cloud\\version.py', reloading
 2024-10-10 19:17:27,094 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:17:28,574 - WARNING -  * Debugger is active!
+2024-10-10 19:17:28,578 - INFO -  * Debugger PIN: 122-173-812
