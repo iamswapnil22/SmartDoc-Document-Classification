@@ -3740,3 +3740,894 @@
 2024-07-10 23:07:27,302 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\numpy\\distutils\\tests\\test_fcompiler.py', reloading
 2024-07-10 23:07:27,339 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\numpy\\distutils\\tests\\test_fcompiler_intel.py', reloading
 2024-07-10 23:07:27,343 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\markdown_it\\parser_block.py', reloading
+2024-07-10 23:07:27,800 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:07:32,320 - WARNING -  * Debugger is active!
+2024-07-10 23:07:32,331 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:24:19,188 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-10 23:24:27,856 - INFO - Predicted Class: News Paper
+2024-07-10 23:24:28,986 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:24:30,421 - INFO - Predicted Class: Form
+2024-07-10 23:24:31,826 - INFO - Predicted Class: Form
+2024-07-10 23:24:33,276 - INFO - Predicted Class: Form
+2024-07-10 23:24:34,988 - INFO - Predicted Class: Form
+2024-07-10 23:24:36,523 - INFO - Predicted Class: Form
+2024-07-10 23:24:38,059 - INFO - Predicted Class: Form
+2024-07-10 23:24:41,849 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:24:42,974 - INFO - Predicted Class: Contract
+2024-07-10 23:24:44,923 - INFO - Predicted Class: contract
+2024-07-10 23:24:46,566 - INFO - Predicted Class: contract
+2024-07-10 23:24:50,653 - INFO - Predicted Class: contract
+2024-07-10 23:24:52,088 - INFO - Predicted Class: Resume
+2024-07-10 23:24:53,726 - INFO - Predicted Class: contract
+2024-07-10 23:24:55,446 - INFO - Predicted Class: Resume
+2024-07-10 23:24:55,453 - INFO - 127.0.0.1 - - [10/Jul/2024 23:24:55] "POST /upload HTTP/1.1" 200 -
+2024-07-10 23:24:59,622 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:00,198 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:25:03,315 - WARNING -  * Debugger is active!
+2024-07-10 23:25:03,326 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:25:03,517 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:03,856 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:03,903 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:04,043 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:25:04,045 - INFO - 127.0.0.1 - - [10/Jul/2024 23:25:04] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:25:04,070 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:04,071 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:04,075 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:04,093 - INFO - 127.0.0.1 - - [10/Jul/2024 23:25:04] "[31m[1mGET /download HTTP/1.1[0m" 416 -
+2024-07-10 23:25:04,094 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:04,955 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:25:08,179 - WARNING -  * Debugger is active!
+2024-07-10 23:25:08,190 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:25:08,382 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:08,384 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:08,510 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:25:08,511 - INFO - 127.0.0.1 - - [10/Jul/2024 23:25:08] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:25:09,077 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:09,079 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:25:09,086 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:25:09,087 - INFO - 127.0.0.1 - - [10/Jul/2024 23:25:09] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:25:09,824 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:25:12,940 - WARNING -  * Debugger is active!
+2024-07-10 23:25:12,950 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:26:05,674 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-07-10 23:26:13,907 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:26:15,237 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:26:16,467 - INFO - Predicted Class: Form
+2024-07-10 23:26:17,593 - INFO - Predicted Class: Form
+2024-07-10 23:26:19,235 - INFO - Predicted Class: Form
+2024-07-10 23:26:20,869 - INFO - Predicted Class: Form
+2024-07-10 23:26:22,508 - INFO - Predicted Class: Form
+2024-07-10 23:26:24,145 - INFO - Predicted Class: Form
+2024-07-10 23:26:27,934 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:26:29,170 - INFO - Predicted Class: contract
+2024-07-10 23:26:30,905 - INFO - Predicted Class: contract
+2024-07-10 23:26:32,549 - INFO - Predicted Class: contract
+2024-07-10 23:26:36,845 - INFO - Predicted Class: contract
+2024-07-10 23:26:38,486 - INFO - Predicted Class: Resume
+2024-07-10 23:26:40,122 - INFO - Predicted Class: contract
+2024-07-10 23:26:42,066 - INFO - Predicted Class: Resume
+2024-07-10 23:26:42,077 - INFO - 127.0.0.1 - - [10/Jul/2024 23:26:42] "POST /upload HTTP/1.1" 200 -
+2024-07-10 23:26:48,613 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:48,963 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:48,964 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:49,088 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:49,224 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:26:49,226 - INFO - 127.0.0.1 - - [10/Jul/2024 23:26:49] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:26:49,248 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:49,250 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:49,258 - INFO - 127.0.0.1 - - [10/Jul/2024 23:26:49] "[31m[1mGET /download HTTP/1.1[0m" 416 -
+2024-07-10 23:26:49,260 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:49,717 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:26:52,950 - WARNING -  * Debugger is active!
+2024-07-10 23:26:52,963 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:26:53,141 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:53,143 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:26:53,243 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:26:53,245 - INFO - 127.0.0.1 - - [10/Jul/2024 23:26:53] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:26:54,523 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:26:57,461 - WARNING -  * Debugger is active!
+2024-07-10 23:26:57,473 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:27:17,563 - INFO - Files received: ['Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf']
+2024-07-10 23:27:20,365 - INFO - Predicted Class: Form
+2024-07-10 23:27:21,798 - INFO - Predicted Class: Form
+2024-07-10 23:27:23,333 - INFO - Predicted Class: Form
+2024-07-10 23:27:24,800 - INFO - Predicted Class: Form
+2024-07-10 23:27:24,805 - INFO - 127.0.0.1 - - [10/Jul/2024 23:27:24] "POST /upload HTTP/1.1" 200 -
+2024-07-10 23:27:26,849 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:27:27,008 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:27:27,140 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:27:27,142 - INFO - 127.0.0.1 - - [10/Jul/2024 23:27:27] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:27:27,917 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:27:31,044 - WARNING -  * Debugger is active!
+2024-07-10 23:27:31,054 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:28:04,091 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-07-10 23:28:12,383 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:28:13,611 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:28:14,860 - INFO - Predicted Class: Form
+2024-07-10 23:28:16,276 - INFO - Predicted Class: Form
+2024-07-10 23:28:18,015 - INFO - Predicted Class: Form
+2024-07-10 23:28:19,485 - INFO - Predicted Class: Form
+2024-07-10 23:28:21,195 - INFO - Predicted Class: Form
+2024-07-10 23:28:23,032 - INFO - Predicted Class: Form
+2024-07-10 23:28:26,856 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:28:27,929 - INFO - Predicted Class: contract
+2024-07-10 23:28:27,934 - INFO - 127.0.0.1 - - [10/Jul/2024 23:28:27] "POST /upload HTTP/1.1" 200 -
+2024-07-10 23:28:33,928 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:34,278 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:34,562 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:28:37,557 - WARNING -  * Debugger is active!
+2024-07-10 23:28:37,566 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:28:37,748 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:37,933 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:38,058 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:28:38,060 - INFO - 127.0.0.1 - - [10/Jul/2024 23:28:38] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:28:39,285 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:28:42,363 - WARNING -  * Debugger is active!
+2024-07-10 23:28:42,374 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:28:43,405 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:43,407 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:28:43,532 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:28:43,534 - INFO - 127.0.0.1 - - [10/Jul/2024 23:28:43] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:28:44,006 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:28:47,196 - WARNING -  * Debugger is active!
+2024-07-10 23:28:47,209 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:29:13,815 - INFO - Files received: ['abc.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'data.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'rental.pdf', 'Swapnil Resume.pdf', 'temp - Copy.pdf', 'temp.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf']
+2024-07-10 23:29:16,588 - INFO - Predicted Class: contract
+2024-07-10 23:29:17,919 - INFO - Predicted Class: Form
+2024-07-10 23:29:19,148 - INFO - Predicted Class: Form
+2024-07-10 23:29:25,803 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:29:27,646 - INFO - Predicted Class: contract
+2024-07-10 23:29:29,286 - INFO - Predicted Class: contract
+2024-07-10 23:29:33,689 - INFO - Predicted Class: contract
+2024-07-10 23:29:35,252 - INFO - Predicted Class: Resume
+2024-07-10 23:29:36,784 - INFO - Predicted Class: Form
+2024-07-10 23:29:38,429 - INFO - Predicted Class: Form
+2024-07-10 23:29:42,451 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:29:44,217 - INFO - Predicted Class: contract
+2024-07-10 23:29:45,855 - INFO - Predicted Class: Resume
+2024-07-10 23:29:47,418 - INFO - Predicted Class: Form
+2024-07-10 23:29:49,150 - INFO - Predicted Class: Form
+2024-07-10 23:29:50,584 - INFO - Predicted Class: NewsPaper
+2024-07-10 23:29:50,590 - INFO - 127.0.0.1 - - [10/Jul/2024 23:29:50] "POST /upload HTTP/1.1" 200 -
+2024-07-10 23:29:55,812 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:56,168 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:56,305 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:56,472 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:29:56,473 - INFO - 127.0.0.1 - - [10/Jul/2024 23:29:56] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:29:56,503 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:56,505 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:56,511 - INFO - 127.0.0.1 - - [10/Jul/2024 23:29:56] "[31m[1mGET /download HTTP/1.1[0m" 416 -
+2024-07-10 23:29:56,513 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:29:57,067 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:30:00,297 - WARNING -  * Debugger is active!
+2024-07-10 23:30:00,307 - INFO -  * Debugger PIN: 328-031-705
+2024-07-10 23:30:00,496 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:30:00,497 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-10 23:30:00,620 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-10 23:30:00,622 - INFO - 127.0.0.1 - - [10/Jul/2024 23:30:00] "GET /download HTTP/1.1" 200 -
+2024-07-10 23:30:01,899 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-10 23:30:04,910 - WARNING -  * Debugger is active!
+2024-07-10 23:30:04,920 - INFO -  * Debugger PIN: 328-031-705
+2024-07-11 15:43:04,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-11 15:43:04,372 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-11 15:43:04,417 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-11 15:43:07,478 - WARNING -  * Debugger is active!
+2024-07-11 15:43:07,496 - INFO -  * Debugger PIN: 135-571-001
+2024-07-11 20:02:50,529 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf']
+2024-07-11 20:02:57,880 - INFO - Predicted Class: NewsPaper
+2024-07-11 20:02:59,554 - INFO - Predicted Class: NewsPaper
+2024-07-11 20:03:00,804 - INFO - Predicted Class: Form
+2024-07-11 20:03:02,018 - INFO - Predicted Class: Form
+2024-07-11 20:03:03,389 - INFO - Predicted Class: Form
+2024-07-11 20:03:05,199 - INFO - Predicted Class: Form
+2024-07-11 20:03:05,204 - INFO - 127.0.0.1 - - [11/Jul/2024 20:03:05] "POST /upload HTTP/1.1" 200 -
+2024-07-11 20:15:44,565 - INFO - Files received: ['temp - Copy.pdf', 'KYCForm - Copy.pdf', 'NewsPaper.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'Swapnil Resume.pdf']
+2024-07-11 20:15:47,704 - INFO - Predicted Class: Form
+2024-07-11 20:15:49,144 - INFO - Predicted Class: Form
+2024-07-11 20:15:52,708 - INFO - Predicted Class: NewsPaper
+2024-07-11 20:15:54,341 - INFO - Predicted Class: contract
+2024-07-11 20:15:55,942 - INFO - Predicted Class: Resume
+2024-07-11 20:15:57,624 - INFO - Predicted Class: Resume
+2024-07-11 20:15:57,627 - INFO - 127.0.0.1 - - [11/Jul/2024 20:15:57] "POST /upload HTTP/1.1" 200 -
+2024-07-11 20:16:02,947 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:03,142 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:03,376 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-11 20:16:05,177 - WARNING -  * Debugger is active!
+2024-07-11 20:16:05,182 - INFO -  * Debugger PIN: 135-571-001
+2024-07-11 20:16:05,222 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:05,304 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:05,350 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-11 20:16:05,351 - INFO - 127.0.0.1 - - [11/Jul/2024 20:16:05] "GET /download HTTP/1.1" 200 -
+2024-07-11 20:16:06,387 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-11 20:16:07,637 - WARNING -  * Debugger is active!
+2024-07-11 20:16:07,642 - INFO -  * Debugger PIN: 135-571-001
+2024-07-11 20:16:10,674 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:10,675 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-11 20:16:10,939 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-11 20:16:12,164 - WARNING -  * Debugger is active!
+2024-07-11 20:16:12,169 - INFO -  * Debugger PIN: 135-571-001
+2024-07-12 13:15:56,938 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-12 13:15:56,940 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-12 13:15:56,984 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-12 13:15:59,946 - WARNING -  * Debugger is active!
+2024-07-12 13:15:59,954 - INFO -  * Debugger PIN: 645-297-959
+2024-07-12 13:17:47,708 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'Swapnil Resume.pdf']
+2024-07-12 13:17:56,956 - INFO - Predicted Class: NewsPaper
+2024-07-12 13:17:58,382 - INFO - Predicted Class: NewsPaper
+2024-07-12 13:18:00,022 - INFO - Predicted Class: Form
+2024-07-12 13:18:01,453 - INFO - Predicted Class: Form
+2024-07-12 13:18:03,196 - INFO - Predicted Class: Form
+2024-07-12 13:18:05,447 - INFO - Predicted Class: Form
+2024-07-12 13:18:07,289 - INFO - Predicted Class: Form
+2024-07-12 13:18:08,986 - INFO - Predicted Class: Form
+2024-07-12 13:18:12,308 - INFO - Predicted Class: NewsPaper
+2024-07-12 13:18:16,198 - INFO - Predicted Class: contract
+2024-07-12 13:18:17,734 - INFO - Predicted Class: Resume
+2024-07-12 13:18:19,374 - INFO - Predicted Class: Resume
+2024-07-12 13:18:19,379 - INFO - 127.0.0.1 - - [12/Jul/2024 13:18:19] "POST /upload HTTP/1.1" 200 -
+2024-07-12 13:18:22,775 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:23,366 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:23,503 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-12 13:18:23,505 - INFO - 127.0.0.1 - - [12/Jul/2024 13:18:23] "GET /download HTTP/1.1" 200 -
+2024-07-12 13:18:23,524 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:23,525 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:23,547 - INFO - 127.0.0.1 - - [12/Jul/2024 13:18:23] "[31m[1mGET /download HTTP/1.1[0m" 416 -
+2024-07-12 13:18:23,548 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:24,006 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-12 13:18:27,795 - WARNING -  * Debugger is active!
+2024-07-12 13:18:27,805 - INFO -  * Debugger PIN: 645-297-959
+2024-07-12 13:18:28,011 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:28,014 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-12 13:18:28,112 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-12 13:18:28,113 - INFO - 127.0.0.1 - - [12/Jul/2024 13:18:28] "GET /download HTTP/1.1" 200 -
+2024-07-12 13:18:29,464 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-12 13:18:32,976 - WARNING -  * Debugger is active!
+2024-07-12 13:18:32,990 - INFO -  * Debugger PIN: 645-297-959
+2024-07-27 22:04:25,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-27 22:04:25,816 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-27 22:04:25,992 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:04:27,878 - WARNING -  * Debugger is active!
+2024-07-27 22:04:27,882 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:04:35,330 - INFO -  * Detected change in 'C:\\Users\\Lenovo\\miniconda3\\Scripts\\conda-script.py', reloading
+2024-07-27 22:04:35,824 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:04:38,195 - WARNING -  * Debugger is active!
+2024-07-27 22:04:38,201 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:05:49,268 - INFO - Files received: ['financial_report (2).pdf']
+2024-07-27 22:05:49,302 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\api_key.py', reloading
+2024-07-27 22:05:50,202 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:05:52,547 - WARNING -  * Debugger is active!
+2024-07-27 22:05:52,553 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:07:28,311 - INFO - Files received: ['Cent_Suvidha - Copy.pdf', 'temp.pdf', 'KYCForm.pdf']
+2024-07-27 22:07:30,951 - INFO - Predicted Class: Form
+2024-07-27 22:07:32,506 - INFO - Predicted Class: Form
+2024-07-27 22:07:34,031 - INFO - Predicted Class: Form
+2024-07-27 22:07:34,035 - INFO - 127.0.0.1 - - [27/Jul/2024 22:07:34] "POST /upload HTTP/1.1" 200 -
+2024-07-27 22:07:37,508 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:07:37,570 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:07:37,659 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-27 22:07:37,660 - INFO - 127.0.0.1 - - [27/Jul/2024 22:07:37] "GET /download HTTP/1.1" 200 -
+2024-07-27 22:07:38,370 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:07:40,862 - WARNING -  * Debugger is active!
+2024-07-27 22:07:40,870 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:10:45,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-27 22:10:45,826 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-27 22:10:45,855 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:10:48,338 - WARNING -  * Debugger is active!
+2024-07-27 22:10:48,343 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:10:54,288 - INFO - 127.0.0.1 - - [27/Jul/2024 22:10:54] "[33mGET / HTTP/1.1[0m" 404 -
+2024-07-27 22:10:54,557 - INFO - 127.0.0.1 - - [27/Jul/2024 22:10:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-27 22:14:13,038 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'KYCForm.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf']
+2024-07-27 22:14:15,724 - INFO - Predicted Class: NewsPaper
+2024-07-27 22:14:16,819 - INFO - Predicted Class: Form
+2024-07-27 22:14:18,251 - INFO - Predicted Class: Form
+2024-07-27 22:14:19,799 - INFO - Predicted Class: Form
+2024-07-27 22:14:21,336 - INFO - Predicted Class: contract
+2024-07-27 22:14:22,711 - INFO - Predicted Class: Resume
+2024-07-27 22:14:22,714 - INFO - 127.0.0.1 - - [27/Jul/2024 22:14:22] "POST /upload HTTP/1.1" 200 -
+2024-07-27 22:15:00,798 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:00,912 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:01,117 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:15:03,674 - WARNING -  * Debugger is active!
+2024-07-27 22:15:03,681 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:15:03,810 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:03,842 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:03,935 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-27 22:15:03,937 - INFO - 127.0.0.1 - - [27/Jul/2024 22:15:03] "GET /download HTTP/1.1" 200 -
+2024-07-27 22:15:05,208 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:15:07,852 - WARNING -  * Debugger is active!
+2024-07-27 22:15:07,858 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:15:09,264 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:09,265 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:09,353 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-27 22:15:09,354 - INFO - 127.0.0.1 - - [27/Jul/2024 22:15:09] "GET /download HTTP/1.1" 200 -
+2024-07-27 22:15:10,443 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:15:12,394 - WARNING -  * Debugger is active!
+2024-07-27 22:15:12,399 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:15:39,686 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:39,687 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-07-27 22:15:39,797 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-07-27 22:15:39,799 - INFO - 127.0.0.1 - - [27/Jul/2024 22:15:39] "GET /download HTTP/1.1" 200 -
+2024-07-27 22:15:40,983 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:15:43,665 - WARNING -  * Debugger is active!
+2024-07-27 22:15:43,672 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:19:05,490 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-27 22:19:05,492 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-27 22:19:05,497 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-27 22:19:06,605 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:19:09,350 - WARNING -  * Debugger is active!
+2024-07-27 22:19:09,357 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:19:26,663 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-27 22:19:26,664 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-07-27 22:19:27,064 - INFO -  * Restarting with watchdog (windowsapi)
+2024-07-27 22:19:29,819 - WARNING -  * Debugger is active!
+2024-07-27 22:19:29,833 - INFO -  * Debugger PIN: 718-181-704
+2024-07-27 22:19:44,871 - INFO - Files received: ['house.pdf']
+2024-07-27 22:19:50,016 - INFO - Predicted Class: contract
+2024-07-27 22:19:50,019 - INFO - 127.0.0.1 - - [27/Jul/2024 22:19:50] "POST /upload HTTP/1.1" 200 -
+2024-10-10 11:11:59,909 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 11:11:59,909 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 11:11:59,928 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 11:12:01,265 - WARNING -  * Debugger is active!
+2024-10-10 11:12:01,270 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 11:14:49,543 - INFO - Files received: ['rental.pdf']
+2024-10-10 11:14:51,252 - INFO - Predicted Class: contract
+2024-10-10 11:14:51,254 - INFO - 127.0.0.1 - - [10/Oct/2024 11:14:51] "POST /upload HTTP/1.1" 200 -
+2024-10-10 11:14:56,039 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 11:14:56,072 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 11:14:56,119 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-10-10 11:14:56,120 - INFO - 127.0.0.1 - - [10/Oct/2024 11:14:56] "GET /download HTTP/1.1" 200 -
+2024-10-10 11:14:56,957 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 11:14:58,267 - WARNING -  * Debugger is active!
+2024-10-10 11:14:58,272 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 11:15:25,937 - INFO - Files received: ['temp.pdf']
+2024-10-10 11:15:28,295 - INFO - Predicted Class: Form
+2024-10-10 11:15:28,297 - INFO - 127.0.0.1 - - [10/Oct/2024 11:15:28] "POST /upload HTTP/1.1" 200 -
+2024-10-10 11:15:29,717 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 11:15:29,729 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 11:15:29,786 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-10-10 11:15:29,786 - INFO - 127.0.0.1 - - [10/Oct/2024 11:15:29] "GET /download HTTP/1.1" 200 -
+2024-10-10 11:15:30,863 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 11:15:32,190 - WARNING -  * Debugger is active!
+2024-10-10 11:15:32,194 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 12:33:40,819 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+2024-10-10 12:33:40,906 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2024-10-10 12:33:41,995 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 12:33:44,905 - WARNING -  * Debugger is active!
+2024-10-10 12:33:44,915 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 12:33:48,122 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__config__.py', reloading
+2024-10-10 12:33:48,123 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__init__.py', reloading
+2024-10-10 12:33:48,126 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__config__.py', reloading
+2024-10-10 12:33:48,128 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__config__.py', reloading
+2024-10-10 12:33:48,129 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__init__.py', reloading
+2024-10-10 12:33:48,131 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\__init__.py', reloading
+2024-10-10 12:33:48,132 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\_checksum.py', reloading
+2024-10-10 12:33:48,133 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\_checksum.py', reloading
+2024-10-10 12:33:48,139 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\cext.py', reloading
+2024-10-10 12:33:48,140 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\cext.py', reloading
+2024-10-10 12:33:48,142 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\python.py', reloading
+2024-10-10 12:33:48,144 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google_crc32c\\python.py', reloading
+2024-10-10 12:33:48,233 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,235 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,236 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,237 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_download.py', reloading
+2024-10-10 12:33:48,239 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_download.py', reloading
+2024-10-10 12:33:48,241 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_helpers.py', reloading
+2024-10-10 12:33:48,242 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_helpers.py', reloading
+2024-10-10 12:33:48,243 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_upload.py', reloading
+2024-10-10 12:33:48,245 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\_upload.py', reloading
+2024-10-10 12:33:48,246 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\_request_helpers.py', reloading
+2024-10-10 12:33:48,247 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\__init__.py', reloading
+2024-10-10 12:33:48,249 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\__init__.py', reloading
+2024-10-10 12:33:48,250 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\__init__.py', reloading
+2024-10-10 12:33:48,252 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\_request_helpers.py', reloading
+2024-10-10 12:33:48,253 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\_request_helpers.py', reloading
+2024-10-10 12:33:48,255 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\download.py', reloading
+2024-10-10 12:33:48,256 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\download.py', reloading
+2024-10-10 12:33:48,258 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\upload.py', reloading
+2024-10-10 12:33:48,260 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\_async_resumable_media\\requests\\upload.py', reloading
+2024-10-10 12:33:48,262 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\common.py', reloading
+2024-10-10 12:33:48,263 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_download.py', reloading
+2024-10-10 12:33:48,265 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_helpers.py', reloading
+2024-10-10 12:33:48,266 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_upload.py', reloading
+2024-10-10 12:33:48,267 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,269 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,270 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\__init__.py', reloading
+2024-10-10 12:33:48,271 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_download.py', reloading
+2024-10-10 12:33:48,273 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_download.py', reloading
+2024-10-10 12:33:48,274 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_helpers.py', reloading
+2024-10-10 12:33:48,275 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_helpers.py', reloading
+2024-10-10 12:33:48,276 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_upload.py', reloading
+2024-10-10 12:33:48,277 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\_upload.py', reloading
+2024-10-10 12:33:48,278 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\common.py', reloading
+2024-10-10 12:33:48,279 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\common.py', reloading
+2024-10-10 12:33:48,280 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\requests\\download.py', reloading
+2024-10-10 12:33:48,281 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\requests\\upload.py', reloading
+2024-10-10 12:33:48,283 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\resumable_media\\requests\\_request_helpers.py', reloading
+2024-10-10 12:33:48,440 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 12:33:50,877 - WARNING -  * Debugger is active!
+2024-10-10 12:33:50,886 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 12:51:18,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 12:51:18,769 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 12:51:18,793 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 12:51:21,076 - WARNING -  * Debugger is active!
+2024-10-10 12:51:21,081 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 12:51:57,212 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf']
+2024-10-10 12:51:57,235 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\_cloud_sdk.py', reloading
+2024-10-10 12:51:57,251 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\compute_engine\\__init__.py', reloading
+2024-10-10 12:51:57,275 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\compute_engine\\_metadata.py', reloading
+2024-10-10 12:51:57,298 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\compute_engine\\credentials.py', reloading
+2024-10-10 12:51:57,314 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:51:57,316 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:51:57,330 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:51:57,331 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2024-10-10 12:51:57,352 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask\\app.py', reloading
+2024-10-10 12:51:57,367 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-10-10 12:51:57,387 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\_default.py', reloading
+2024-10-10 12:51:57,407 - INFO - 127.0.0.1 - - [10/Oct/2024 12:51:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2024-10-10 12:51:58,086 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 12:52:00,421 - WARNING -  * Debugger is active!
+2024-10-10 12:52:00,428 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 12:52:00,541 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf']
+2024-10-10 12:52:00,551 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:52:00,552 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:52:00,553 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network
+2024-10-10 12:52:00,554 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2024-10-10 12:52:00,578 - INFO - 127.0.0.1 - - [10/Oct/2024 12:52:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2024-10-10 16:54:14,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 16:54:14,261 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 16:54:14,278 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 16:54:15,700 - WARNING -  * Debugger is active!
+2024-10-10 16:54:15,705 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:10:51,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 17:10:51,998 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 17:10:52,018 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:10:54,437 - WARNING -  * Debugger is active!
+2024-10-10 17:10:54,443 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:11:44,298 - INFO - Files received: ['NewsPaper.pdf']
+2024-10-10 17:11:55,222 - INFO - Predicted Class: NewsPaper
+2024-10-10 17:11:55,226 - ERROR - Error moving file NewsPaper.pdf: [WinError 2] The system cannot find the file specified
+2024-10-10 17:11:55,228 - INFO - 127.0.0.1 - - [10/Oct/2024 17:11:55] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:11:59,950 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 17:11:59,952 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 17:12:00,045 - ERROR - Error during cleanup: [WinError 32] The process cannot access the file because it is being used by another process: 'sorted_documents.zip'
+2024-10-10 17:12:00,047 - INFO - 127.0.0.1 - - [10/Oct/2024 17:12:00] "GET /download HTTP/1.1" 200 -
+2024-10-10 17:12:01,236 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:12:03,688 - WARNING -  * Debugger is active!
+2024-10-10 17:12:03,697 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:22:20,544 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:22:20,546 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:22:21,555 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:23:36,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 17:23:36,009 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 17:23:36,032 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:23:38,311 - WARNING -  * Debugger is active!
+2024-10-10 17:23:38,318 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:24:42,640 - INFO - Files received: ['KYCForm.pdf']
+2024-10-10 17:25:33,769 - INFO - Predicted Class: Form
+2024-10-10 17:25:36,637 - INFO - 127.0.0.1 - - [10/Oct/2024 17:25:36] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:34:46,960 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:34:46,961 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:34:46,963 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:34:46,964 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:34:47,839 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:34:50,171 - WARNING -  * Debugger is active!
+2024-10-10 17:34:50,177 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:35:14,507 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-10-10 17:35:22,861 - INFO - Predicted Class: Contract
+2024-10-10 17:35:25,881 - INFO - Predicted Class: NewsPaper
+2024-10-10 17:35:28,466 - INFO - Predicted Class: Form
+2024-10-10 17:35:30,949 - INFO - Predicted Class: Form
+2024-10-10 17:35:33,765 - INFO - Predicted Class: Form
+2024-10-10 17:35:36,553 - INFO - Predicted Class: Form
+2024-10-10 17:35:39,089 - INFO - Predicted Class: Form
+2024-10-10 17:35:41,606 - INFO - Predicted Class: Form
+2024-10-10 17:35:46,977 - INFO - Predicted Class: NewsPaper
+2024-10-10 17:35:49,631 - INFO - Predicted Class: Contract
+2024-10-10 17:35:50,239 - INFO - 127.0.0.1 - - [10/Oct/2024 17:35:50] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:39:25,378 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:39:25,380 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:39:25,382 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:39:25,383 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:39:26,092 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:39:28,565 - WARNING -  * Debugger is active!
+2024-10-10 17:39:28,571 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:41:38,867 - INFO - Files received: ['Employee Equipment Agreement.pdf']
+2024-10-10 17:41:43,079 - INFO - Predicted Class: Contract
+2024-10-10 17:41:43,714 - INFO - 127.0.0.1 - - [10/Oct/2024 17:41:43] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:42:33,981 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:33,986 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:34,276 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:42:36,652 - WARNING -  * Debugger is active!
+2024-10-10 17:42:36,658 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:42:45,528 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:45,529 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:45,530 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:45,532 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:45,933 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:45,934 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:42:46,629 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:42:49,059 - WARNING -  * Debugger is active!
+2024-10-10 17:42:49,067 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:43:00,530 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:43:00,532 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:43:00,534 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:43:01,334 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:43:03,687 - WARNING -  * Debugger is active!
+2024-10-10 17:43:03,693 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:43:41,690 - INFO - Files received: ['rental.pdf']
+2024-10-10 17:43:46,054 - INFO - Predicted Class: Contract
+2024-10-10 17:43:46,802 - INFO - 127.0.0.1 - - [10/Oct/2024 17:43:46] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:44:12,573 - INFO - Files received: ['Evergreen Contract Template.pdf']
+2024-10-10 17:44:14,314 - INFO - Predicted Class: Contract
+2024-10-10 17:44:14,958 - INFO - 127.0.0.1 - - [10/Oct/2024 17:44:14] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:46:33,414 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:46:33,417 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:46:34,375 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:46:36,792 - WARNING -  * Debugger is active!
+2024-10-10 17:46:36,799 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:46:56,166 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:46:56,169 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:46:56,591 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:47:21,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 17:47:21,928 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 17:47:21,953 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:47:24,222 - WARNING -  * Debugger is active!
+2024-10-10 17:47:24,229 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:47:46,555 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:47:46,559 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:47:47,297 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:47:49,629 - WARNING -  * Debugger is active!
+2024-10-10 17:47:49,636 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:48:18,688 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:18,689 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:18,690 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:19,172 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:48:21,601 - WARNING -  * Debugger is active!
+2024-10-10 17:48:21,608 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:48:52,827 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:52,828 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:52,829 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:48:53,329 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:48:55,829 - WARNING -  * Debugger is active!
+2024-10-10 17:48:55,836 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:49:46,756 - INFO - Files received: ['Jake_s_Resume.pdf']
+2024-10-10 17:49:50,315 - INFO - Predicted Class: Resume
+2024-10-10 17:49:50,953 - INFO - 127.0.0.1 - - [10/Oct/2024 17:49:50] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:51:02,621 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:02,623 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:03,708 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:51:06,119 - WARNING -  * Debugger is active!
+2024-10-10 17:51:06,131 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:51:06,888 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:06,889 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:07,479 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:51:09,851 - WARNING -  * Debugger is active!
+2024-10-10 17:51:09,858 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:51:17,853 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:17,854 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:17,856 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:18,868 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:51:21,287 - WARNING -  * Debugger is active!
+2024-10-10 17:51:21,294 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:51:24,227 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:24,229 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:24,230 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 17:51:24,874 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:51:27,224 - WARNING -  * Debugger is active!
+2024-10-10 17:51:27,232 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:52:09,152 - INFO - Files received: ['house.pdf']
+2024-10-10 17:52:15,112 - INFO - Predicted Class: Contract
+2024-10-10 17:52:15,777 - ERROR - http://localhost:5000/download
+2024-10-10 17:52:15,777 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:15] "POST /upload HTTP/1.1" 200 -
+2024-10-10 17:52:23,072 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 17:52:23,080 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 17:52:23,107 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask\\app.py', reloading
+2024-10-10 17:52:23,122 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-10-10 17:52:23,137 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\decorator.py', reloading
+2024-10-10 17:52:23,147 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:23] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+2024-10-10 17:52:23,412 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:23] "GET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-10 17:52:23,501 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:23] "GET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-10 17:52:23,565 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:23] "GET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-10 17:52:23,976 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 17:52:26,348 - WARNING -  * Debugger is active!
+2024-10-10 17:52:26,355 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 17:52:26,601 - INFO - 127.0.0.1 - - [10/Oct/2024 17:52:26] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-10 18:00:32,430 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:00:32,431 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:00:32,865 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:00:35,371 - WARNING -  * Debugger is active!
+2024-10-10 18:00:35,377 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:01:18,017 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:01:18,020 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:01:18,021 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:01:18,774 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:02:23,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 18:02:23,006 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 18:02:23,029 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:02:25,233 - WARNING -  * Debugger is active!
+2024-10-10 18:02:25,239 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:05:52,876 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:05:52,878 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:05:53,477 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:11:02,225 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 18:11:02,226 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 18:11:02,246 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:11:04,470 - WARNING -  * Debugger is active!
+2024-10-10 18:11:04,477 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:11:25,517 - INFO - Files received: ['Swapnil Resume.pdf']
+2024-10-10 18:11:25,520 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:11:26,397 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:11:28,696 - WARNING -  * Debugger is active!
+2024-10-10 18:11:28,702 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:11:28,821 - INFO - Files received: ['Swapnil Resume.pdf']
+2024-10-10 18:11:28,825 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:11:30,100 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:11:32,447 - WARNING -  * Debugger is active!
+2024-10-10 18:11:32,452 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:11:45,215 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:11:45,216 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:11:45,217 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:11:45,218 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:11:45,697 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:12:20,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 18:12:20,006 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 18:12:20,028 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:12:22,387 - WARNING -  * Debugger is active!
+2024-10-10 18:12:22,395 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:12:36,694 - INFO - Files received: ['Jake_s_Resume.pdf']
+2024-10-10 18:12:40,098 - INFO - Predicted Class: Resume
+2024-10-10 18:12:40,749 - INFO - 127.0.0.1 - - [10/Oct/2024 18:12:40] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2024-10-10 18:12:46,467 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:46,468 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:46,471 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:47,696 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:12:50,152 - WARNING -  * Debugger is active!
+2024-10-10 18:12:50,159 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:12:54,340 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:54,343 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:54,850 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:12:57,225 - WARNING -  * Debugger is active!
+2024-10-10 18:12:57,231 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:12:57,402 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:57,404 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:57,405 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:12:58,582 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:13:00,963 - WARNING -  * Debugger is active!
+2024-10-10 18:13:00,971 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:13:04,783 - INFO - Files received: ['dummy.pdf']
+2024-10-10 18:13:07,916 - INFO - Predicted Class: Form
+2024-10-10 18:13:08,576 - INFO - 127.0.0.1 - - [10/Oct/2024 18:13:08] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:13:14,412 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:13:14,413 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:13:15,407 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:13:17,734 - WARNING -  * Debugger is active!
+2024-10-10 18:13:17,741 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:18:39,619 - INFO - Files received: ['Employee Equipment Agreement.pdf']
+2024-10-10 18:18:42,779 - INFO - Predicted Class: Contract
+2024-10-10 18:18:43,471 - INFO - 127.0.0.1 - - [10/Oct/2024 18:18:43] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:22:05,697 - INFO - Files received: ['Contract_abc.pdf']
+2024-10-10 18:22:08,655 - INFO - Predicted Class: Contract
+2024-10-10 18:22:09,404 - INFO - 127.0.0.1 - - [10/Oct/2024 18:22:09] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:22:26,352 - INFO - Files received: ['KYCForm - Copy.pdf']
+2024-10-10 18:22:28,441 - INFO - Predicted Class: Form
+2024-10-10 18:22:29,166 - INFO - 127.0.0.1 - - [10/Oct/2024 18:22:29] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:25:08,445 - INFO - Files received: ['Contract_abc.pdf']
+2024-10-10 18:25:13,503 - INFO - Predicted Class: Contract
+2024-10-10 18:25:14,233 - INFO - 127.0.0.1 - - [10/Oct/2024 18:25:14] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:39:45,910 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:39:45,910 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:39:46,452 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:39:47,809 - WARNING -  * Debugger is active!
+2024-10-10 18:39:47,813 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:04,193 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:42:04,194 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:42:04,194 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:42:04,966 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:06,295 - WARNING -  * Debugger is active!
+2024-10-10 18:42:06,298 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:08,400 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:42:08,401 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:42:08,569 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:10,167 - WARNING -  * Debugger is active!
+2024-10-10 18:42:10,170 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:30,080 - INFO - Files received: ['temp - Copy.pdf']
+2024-10-10 18:42:30,082 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:42:30,240 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:31,584 - WARNING -  * Debugger is active!
+2024-10-10 18:42:31,588 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:31,651 - INFO - Files received: ['temp - Copy.pdf']
+2024-10-10 18:42:31,653 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:42:32,868 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:34,224 - WARNING -  * Debugger is active!
+2024-10-10 18:42:34,229 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:34,292 - INFO - Files received: ['temp - Copy.pdf']
+2024-10-10 18:42:34,294 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:42:35,481 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:36,815 - WARNING -  * Debugger is active!
+2024-10-10 18:42:36,819 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:42:58,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 18:42:58,493 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 18:42:58,507 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:42:59,889 - WARNING -  * Debugger is active!
+2024-10-10 18:42:59,893 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:43:05,843 - INFO - Files received: ['NewsPaper.pdf']
+2024-10-10 18:43:05,846 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:43:06,348 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:43:07,701 - WARNING -  * Debugger is active!
+2024-10-10 18:43:07,706 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:46:20,392 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:46:20,393 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:46:20,394 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:46:20,394 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:46:20,517 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:46:21,924 - WARNING -  * Debugger is active!
+2024-10-10 18:46:21,927 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:46:43,422 - INFO - Files received: ['house.pdf']
+2024-10-10 18:46:43,424 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:46:44,116 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:46:45,477 - WARNING -  * Debugger is active!
+2024-10-10 18:46:45,481 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:47:46,578 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:47:46,578 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:47:46,894 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:47:46,895 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:47:46,895 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:47:47,417 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:47:48,801 - WARNING -  * Debugger is active!
+2024-10-10 18:47:48,804 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:47:58,179 - INFO - Files received: ['Employee Equipment Agreement.pdf']
+2024-10-10 18:47:58,181 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:47:58,394 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:47:59,798 - WARNING -  * Debugger is active!
+2024-10-10 18:47:59,801 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:48:19,009 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:48:19,010 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:48:19,011 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:48:19,823 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:48:21,151 - WARNING -  * Debugger is active!
+2024-10-10 18:48:21,155 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:48:32,704 - INFO - Files received: ['NewsPaper.pdf']
+2024-10-10 18:48:38,578 - INFO - Predicted Class: Newsletter
+2024-10-10 18:48:39,217 - INFO - 127.0.0.1 - - [10/Oct/2024 18:48:39] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:57:09,462 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:09,463 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:09,463 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:10,371 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:57:11,726 - WARNING -  * Debugger is active!
+2024-10-10 18:57:11,730 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:57:15,183 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:15,185 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:15,186 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:57:16,084 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:58:24,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 18:58:24,547 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 18:58:24,559 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:58:25,897 - WARNING -  * Debugger is active!
+2024-10-10 18:58:25,901 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:58:38,938 - INFO - Files received: ['rental.pdf']
+2024-10-10 18:58:41,304 - INFO - Predicted Class: Contract
+2024-10-10 18:58:42,016 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:42] "POST /upload HTTP/1.1" 200 -
+2024-10-10 18:58:53,279 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:58:53,279 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\sorted_documents.zip', reloading
+2024-10-10 18:58:53,280 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask\\app.py', reloading
+2024-10-10 18:58:53,282 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-10-10 18:58:53,283 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\decorator.py', reloading
+2024-10-10 18:58:53,291 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:53] "[35m[1mGET /download HTTP/1.1[0m" 500 -
+2024-10-10 18:58:53,575 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:53] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-10 18:58:53,617 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:53] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-10 18:58:53,650 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:53] "GET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-10 18:58:54,009 - INFO - 127.0.0.1 - - [10/Oct/2024 18:58:54] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-10 18:58:54,363 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:58:55,670 - WARNING -  * Debugger is active!
+2024-10-10 18:58:55,674 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 18:59:38,085 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:59:38,086 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:59:38,087 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 18:59:38,722 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 18:59:40,105 - WARNING -  * Debugger is active!
+2024-10-10 18:59:40,109 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:06:15,053 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,054 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,054 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,161 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,161 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,162 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,162 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:06:15,691 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:06:17,066 - WARNING -  * Debugger is active!
+2024-10-10 19:06:17,071 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:06:31,116 - INFO - Files received: ['Jake_s_Resume.pdf']
+2024-10-10 19:06:34,872 - INFO - Predicted Class: Resume
+2024-10-10 19:06:35,568 - INFO - 127.0.0.1 - - [10/Oct/2024 19:06:35] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:07:13,575 - INFO - Files received: ['Evergreen Contract Template.pdf']
+2024-10-10 19:07:15,485 - INFO - Predicted Class: Contract
+2024-10-10 19:07:16,202 - INFO - 127.0.0.1 - - [10/Oct/2024 19:07:16] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:10:05,586 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:05,587 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:05,588 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:05,588 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:06,736 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:10:08,112 - WARNING -  * Debugger is active!
+2024-10-10 19:10:08,118 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:10:09,618 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:09,618 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:09,618 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:10,374 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:10:11,713 - WARNING -  * Debugger is active!
+2024-10-10 19:10:11,717 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:10:27,964 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:27,965 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:27,965 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:27,965 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:10:28,622 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:10:30,039 - WARNING -  * Debugger is active!
+2024-10-10 19:10:30,044 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:11:19,778 - INFO - Files received: ['Contract_abc.pdf']
+2024-10-10 19:11:23,990 - INFO - Predicted Class: Contract
+2024-10-10 19:11:24,566 - INFO - 127.0.0.1 - - [10/Oct/2024 19:11:24] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:11:55,373 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:11:55,373 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:11:55,373 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:11:56,171 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:11:57,572 - WARNING -  * Debugger is active!
+2024-10-10 19:11:57,577 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:12:53,519 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:12:53,520 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:12:53,520 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:12:53,521 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:12:54,483 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:12:55,918 - WARNING -  * Debugger is active!
+2024-10-10 19:12:55,924 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:12:59,970 - INFO - Files received: ['KYCForm - Copy.pdf']
+2024-10-10 19:13:03,489 - INFO - Predicted Class: Form
+2024-10-10 19:13:04,042 - INFO - 127.0.0.1 - - [10/Oct/2024 19:13:04] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:14:13,541 - INFO - 127.0.0.1 - - [10/Oct/2024 19:14:13] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-10-10 19:14:28,428 - INFO - Files received: ['KYCForm - Copy.pdf']
+2024-10-10 19:14:30,383 - INFO - Predicted Class: Form
+2024-10-10 19:14:30,997 - INFO - 127.0.0.1 - - [10/Oct/2024 19:14:30] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:15:36,214 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:36,215 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:36,215 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:37,325 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:15:38,723 - WARNING -  * Debugger is active!
+2024-10-10 19:15:38,728 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:15:42,396 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:42,396 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:42,397 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:42,397 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:15:43,086 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:15:44,461 - WARNING -  * Debugger is active!
+2024-10-10 19:15:44,466 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:15:54,855 - INFO - Files received: ['Contract_abc.pdf']
+2024-10-10 19:15:58,276 - INFO - Predicted Class: Contract
+2024-10-10 19:15:58,934 - INFO - 127.0.0.1 - - [10/Oct/2024 19:15:58] "POST /upload HTTP/1.1" 200 -
+2024-10-10 19:16:26,724 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:26,724 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:26,725 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:27,582 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:16:28,960 - WARNING -  * Debugger is active!
+2024-10-10 19:16:28,964 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:16:40,675 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:40,676 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:40,676 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-10 19:16:41,687 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 19:16:43,246 - WARNING -  * Debugger is active!
+2024-10-10 19:16:43,250 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 19:17:17,415 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\grpc\\framework\\interfaces\\face\\face.py', reloading
+2024-10-10 19:17:17,416 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\grpc\\framework\\interfaces\\face\\utilities.py', reloading
+2024-10-10 19:17:18,023 - INFO -  * Restarting with watchdog (windowsapi)
