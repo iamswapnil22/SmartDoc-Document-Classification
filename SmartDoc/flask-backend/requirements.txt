@@ -81,4 +81,3 @@ uritemplate
 urllib3
 watchdog
 Werkzeug
-gunicorn
