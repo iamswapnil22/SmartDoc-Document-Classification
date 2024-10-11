@@ -26,23 +26,25 @@
       files.forEach(file => {
         formData.append('files', file);
       });
-
+    
       try {
         const response = await fetch('http://localhost:5000/upload', {
           method: 'POST',
           body: formData,
         });
-
+    
         if (!response.ok) {
           throw new Error('Failed to upload files');
         }
-
+    
         const data = await response.json();
         setMessage(data.message);
         setResults(data.filter(item => item.class)); // Filter to show only classification results
+    
+        // Set the download link
         const downloadData = data.find(item => item.download_link);
         if (downloadData) {
-          setDownloadLink(`http://localhost:5000${downloadData.download_link}`);
+          setDownloadLink(downloadData.download_link); // Use the zip URL directly
         }
       } catch (error) {
         console.error('Error uploading files:', error);
@@ -50,7 +52,7 @@
       } finally {
         setLoading(false);
       }
-    };
+    };   
 
     return (
       <div className="App" onDrop={handleDrop} onDragOver={(e) => e.preventDefault()}>
@@ -97,8 +99,8 @@
                   ))}
                 </ul>
               </div>
-            )}
-            {downloadLink && (
+            )}{downloadLink && (
+              
   <a className="upload-button download" href={downloadLink} download>
     DOWNLOAD 
   </a>

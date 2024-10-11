@@ -8,28 +8,23 @@ import zipfile
 import logging
 from google.cloud import storage
 import os
+import zip_to_gcp
 
-# Initialize Flask app and enable CORS
 app = Flask(__name__)
 CORS(app)
 
-# Configure logging
 log_filename = 'app.log'
 log_file_path = log_filename
 
-# Configure root logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Create a file handler for storing logs to file
 file_handler = logging.FileHandler(log_file_path)
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 logging.getLogger().addHandler(file_handler)
 
-# Initialize logger for the current module
 logger = logging.getLogger(__name__)
 
-# Initialize Gemini model from Google Generative AI
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Google Cloud Storage bucket name
@@ -52,6 +47,19 @@ def move_file_in_gcs(source_blob_name, destination_blob_name):
     new_blob = bucket.rename_blob(blob, destination_blob_name)
     return new_blob.public_url
 
+def cleanup_bucket(bucket_name):
+    """Clean up all files in the specified GCS bucket."""
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(bucket_name)
+
+    # List all blobs in the bucket
+    blobs = bucket.list_blobs()
+    for blob in blobs:
+        blob.delete()  # Delete the blob
+        logger.info(f"Deleted blob: {blob.name}")
+
+    logger.info(f"All files in bucket {bucket_name} have been deleted.")
+
 def clean_text(text):
     text = re.sub(r'\s+', ' ', text)
     text = text.strip()
@@ -70,7 +78,7 @@ def classify_document(file, file_name):
     text = extract_text_from_pdf(file)
     cleaned_text = clean_text(text)
     
-    input_prompt = f'''SYSTEM: Guess the type of Document (Resume, contract, NewsPaper, Letter, Email, Form):
+    input_prompt = f'''SYSTEM: Guess the type of Document (Resume, contract, NewsPaper, Letter, Email, None):
     
     USER: This is my Text -  {cleaned_text[:500]} Guess My document type.'''
 
@@ -107,53 +115,20 @@ def upload_files():
         document_class, public_url = classify_document(file, file.filename)
         results.append({"file": file.filename, "class": document_class, "url": public_url})
 
-    # Append the download link to the response
-    download_link = request.host_url + 'download'
-    print("THIS IS THE DOWNLOAD LINK")
-    print(download_link)
-    results.append({"message": "Files uploaded and classified successfully.", "download_link": download_link})
+    # Process zipping and uploading all folders after the files are classified
+    bucket_name = 'smartdoc-files-bucket'  # Your GCS bucket name
+    zip_url = zip_to_gcp.zip_and_upload_all_folders(bucket_name)
+
+    # Return the URL of the zip file for downloading
+    if zip_url:
+        results.append({"message": "Files uploaded and classified successfully.", "download_link": zip_url})
+    else:
+        results.append({"message": "Files uploaded and classified successfully, but zip creation failed."})
+
+    # cleanup_bucket(bucket_name)
 
     return jsonify(results), 200
 
-@app.route('/download', methods=['GET'])
-def download():
-    # Define the zip filename
-    zip_filename = 'sorted_documents.zip'
-    
-    # Create a zip file
-    with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zip_file:
-        # Initialize the Google Cloud Storage client
-        storage_client = storage.Client()
-        bucket = storage_client.bucket(BUCKET_NAME)
-
-        # List all folders in the bucket
-        blobs = bucket.list_blobs()
-        folders = set()  # To store unique folder names
-        
-        for blob in blobs:
-            # Get the folder name from the blob name
-            folder_name = blob.name.split('/')[0]  # Assuming the structure is like 'folder/file.pdf'
-            if folder_name:
-                folders.add(folder_name)
-
-        # Loop through each folder and add its files to the zip
-        for folder in folders:
-            # List files in the folder
-            for blob in bucket.list_blobs(prefix=f"{folder}/"):
-                file_name = blob.name
-                # Create a temporary file to download the blob to
-                temp_file_path = f"/tmp/{file_name.split('/')[-1]}"
-                blob.download_to_filename(temp_file_path)
-                zip_file.write(temp_file_path, arcname=file_name)  # Use arcname to preserve the folder structure
-                os.remove(temp_file_path)  # Remove the temporary file after adding it to the zip
-
-    # Upload the zip file to GCS and get its public URL
-    public_url = upload_to_gcs(zip_filename, zip_filename)
-
-    # Clean up the local zip file if necessary
-    os.remove(zip_filename)  # Optionally remove the local zip file if not needed
-    print(public_url)
-    return jsonify({"download_url": public_url}), 200
 
 if __name__ == '__main__':
     app.run(debug=True)

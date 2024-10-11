@@ -4699,3 +4699,372 @@
 2024-10-10 19:17:27,094 - INFO -  * Restarting with watchdog (windowsapi)
 2024-10-10 19:17:28,574 - WARNING -  * Debugger is active!
 2024-10-10 19:17:28,578 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 23:05:56,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-10 23:05:56,995 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-10 23:05:57,013 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 23:05:58,652 - WARNING -  * Debugger is active!
+2024-10-10 23:05:58,657 - INFO -  * Debugger PIN: 122-173-812
+2024-10-10 23:07:22,027 - INFO - Files received: ['Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf', 'dummy.pdf', 'Employee Equipment Agreement.pdf', 'Jake_s_Resume.pdf', 'Swapnil Resume.pdf']
+2024-10-10 23:07:29,141 - INFO - Predicted Class: Form
+2024-10-10 23:07:41,518 - INFO - Predicted Class: Form
+2024-10-10 23:07:50,186 - INFO - Predicted Class: Form
+2024-10-10 23:07:57,911 - INFO - Predicted Class: Form
+2024-10-10 23:08:03,445 - INFO - Predicted Class: SYSTEM: Form
+2024-10-10 23:08:17,258 - INFO - Predicted Class: NewsPaper
+2024-10-10 23:08:21,337 - INFO - Predicted Class: Contract
+2024-10-10 23:08:23,399 - INFO - Predicted Class: Document type: None
+2024-10-10 23:08:25,918 - INFO - Predicted Class: Contract
+2024-10-10 23:08:28,533 - INFO - Predicted Class: Resume
+2024-10-10 23:08:31,841 - INFO - Predicted Class: Resume
+2024-10-10 23:08:32,968 - INFO - 127.0.0.1 - - [10/Oct/2024 23:08:32] "POST /upload HTTP/1.1" 200 -
+2024-10-10 23:12:28,165 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\demo.py', reloading
+2024-10-10 23:12:29,127 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-10 23:12:30,588 - WARNING -  * Debugger is active!
+2024-10-10 23:12:30,592 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 12:53:59,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 12:53:59,298 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 12:53:59,316 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 12:54:00,685 - WARNING -  * Debugger is active!
+2024-10-11 12:54:00,689 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 12:54:38,477 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'house.pdf', 'Jake_s_Resume.pdf', 'rental.pdf', 'Swapnil Resume.pdf']
+2024-10-11 12:54:45,725 - INFO - Predicted Class: Form
+2024-10-11 12:54:48,260 - INFO - Predicted Class: NewsPaper
+2024-10-11 12:54:50,609 - INFO - Predicted Class: Form
+2024-10-11 12:54:53,642 - INFO - Predicted Class: Form
+2024-10-11 12:54:56,219 - INFO - Predicted Class: Form
+2024-10-11 12:54:58,790 - INFO - Predicted Class: Form
+2024-10-11 12:55:01,379 - INFO - Predicted Class: Form
+2024-10-11 12:55:03,833 - INFO - Predicted Class: Form
+2024-10-11 12:55:08,418 - INFO - Predicted Class: NewPaper
+2024-10-11 12:55:10,944 - INFO - Predicted Class: Contract
+2024-10-11 12:55:13,697 - INFO - Predicted Class: Contract
+2024-10-11 12:55:16,426 - INFO - Predicted Class: Contract
+2024-10-11 12:55:20,383 - INFO - Predicted Class: Contract
+2024-10-11 12:55:23,023 - INFO - Predicted Class: Resume
+2024-10-11 12:55:25,473 - INFO - Predicted Class: Contract
+2024-10-11 12:55:27,930 - INFO - Predicted Class: Resume
+2024-10-11 12:55:28,500 - INFO - 127.0.0.1 - - [11/Oct/2024 12:55:28] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:01:45,965 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 13:01:45,966 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 13:01:45,966 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 13:01:46,494 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:01:47,995 - WARNING -  * Debugger is active!
+2024-10-11 13:01:48,000 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:02:04,934 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\auth\\environment_vars.py', reloading
+2024-10-11 13:02:05,955 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:02:07,331 - WARNING -  * Debugger is active!
+2024-10-11 13:02:07,334 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:18:07,885 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:18:07,887 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:18:07,889 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:18:08,441 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:18:10,978 - WARNING -  * Debugger is active!
+2024-10-11 13:18:10,986 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:19:43,843 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Evergreen Contract Template.pdf']
+2024-10-11 13:19:47,866 - INFO - Predicted Class: NewsPaper
+2024-10-11 13:19:50,496 - INFO - Predicted Class: Form
+2024-10-11 13:19:53,057 - INFO - Predicted Class: Contract
+2024-10-11 13:19:53,636 - INFO - 127.0.0.1 - - [11/Oct/2024 13:19:53] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:20:53,237 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:20:53,238 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:20:54,217 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:20:56,613 - WARNING -  * Debugger is active!
+2024-10-11 13:20:56,622 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:22:01,725 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:22:01,727 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:22:01,728 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:22:01,932 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:23:17,736 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 13:23:17,737 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 13:23:17,760 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:23:20,084 - WARNING -  * Debugger is active!
+2024-10-11 13:23:20,090 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:26:04,041 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf', 'dummy.pdf']
+2024-10-11 13:26:11,500 - INFO - Predicted Class: contract
+2024-10-11 13:26:14,176 - INFO - Predicted Class: NewsPaper
+2024-10-11 13:26:16,781 - INFO - Predicted Class: Form
+2024-10-11 13:26:20,255 - INFO - Predicted Class: Form
+2024-10-11 13:26:22,970 - INFO - Predicted Class: Form
+2024-10-11 13:26:25,695 - ERROR - Error during Gemini model inference: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. Please check the `candidate.safety_ratings` to determine if the response was blocked.
+2024-10-11 13:26:25,725 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask\\app.py', reloading
+2024-10-11 13:26:25,737 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-10-11 13:26:25,754 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\env\\Lib\\site-packages\\google\\generativeai\\types\\generation_types.py', reloading
+2024-10-11 13:26:25,766 - INFO - 127.0.0.1 - - [11/Oct/2024 13:26:25] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2024-10-11 13:26:26,711 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:26:29,137 - WARNING -  * Debugger is active!
+2024-10-11 13:26:29,148 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:27:49,225 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:49,227 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:49,557 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:27:51,998 - WARNING -  * Debugger is active!
+2024-10-11 13:27:52,005 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:27:52,174 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:52,174 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:52,176 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:53,386 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:27:55,760 - WARNING -  * Debugger is active!
+2024-10-11 13:27:55,767 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:27:56,547 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:56,549 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:56,551 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:27:57,122 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:27:59,458 - WARNING -  * Debugger is active!
+2024-10-11 13:27:59,465 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:28:01,961 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:28:01,963 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:28:01,964 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:28:02,978 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:28:05,344 - WARNING -  * Debugger is active!
+2024-10-11 13:28:05,351 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:28:51,742 - INFO - Files received: ['KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf', 'Jake_s_Resume.pdf', 'Swapnil Resume.pdf']
+2024-10-11 13:28:55,296 - INFO - Predicted Class: Form
+2024-10-11 13:28:58,175 - INFO - Predicted Class: Form
+2024-10-11 13:29:02,496 - INFO - Predicted Class: Newspaper
+2024-10-11 13:29:05,189 - INFO - Predicted Class: Contract
+2024-10-11 13:29:08,186 - INFO - Predicted Class: Contract
+2024-10-11 13:29:10,975 - INFO - Predicted Class: Resume
+2024-10-11 13:29:14,175 - INFO - Predicted Class: Resume
+2024-10-11 13:29:14,930 - INFO - 127.0.0.1 - - [11/Oct/2024 13:29:14] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:30:04,246 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:04,247 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:05,422 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:30:07,889 - WARNING -  * Debugger is active!
+2024-10-11 13:30:07,896 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:30:12,847 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:12,849 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:12,852 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:13,641 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:30:16,140 - WARNING -  * Debugger is active!
+2024-10-11 13:30:16,146 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:30:20,782 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:20,783 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:20,786 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:21,874 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:30:24,352 - WARNING -  * Debugger is active!
+2024-10-11 13:30:24,359 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:30:39,457 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:39,457 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:39,460 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:30:39,748 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:30:42,120 - WARNING -  * Debugger is active!
+2024-10-11 13:30:42,126 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:30:50,532 - INFO - Files received: ['abc.pdf']
+2024-10-11 13:30:53,939 - INFO - Predicted Class: Contract
+2024-10-11 13:30:54,716 - INFO - 127.0.0.1 - - [11/Oct/2024 13:30:54] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:31:27,677 - INFO - Files received: ['rental.pdf']
+2024-10-11 13:31:29,696 - INFO - Predicted Class: Contract
+2024-10-11 13:31:30,401 - INFO - 127.0.0.1 - - [11/Oct/2024 13:31:30] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:31:39,288 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:39,291 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:39,292 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:39,872 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:31:42,182 - WARNING -  * Debugger is active!
+2024-10-11 13:31:42,188 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:31:42,342 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:42,344 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:42,345 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:43,386 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:43,388 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:31:43,611 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:31:45,891 - WARNING -  * Debugger is active!
+2024-10-11 13:31:45,897 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:32:36,931 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:32:36,932 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:32:36,935 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:32:38,127 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:32:40,466 - WARNING -  * Debugger is active!
+2024-10-11 13:32:40,473 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:32:52,104 - INFO - Files received: ['Cent_Suvidha.pdf']
+2024-10-11 13:32:55,667 - INFO - Predicted Class: Letter
+2024-10-11 13:32:56,297 - INFO - 127.0.0.1 - - [11/Oct/2024 13:32:56] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:33:06,506 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:06,507 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:06,867 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:33:09,239 - WARNING -  * Debugger is active!
+2024-10-11 13:33:09,246 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:33:13,040 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:13,041 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:13,042 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:13,043 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:13,822 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:33:16,254 - WARNING -  * Debugger is active!
+2024-10-11 13:33:16,261 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:33:26,202 - INFO - Files received: ['Cent_Suvidha - Copy.pdf']
+2024-10-11 13:33:28,124 - INFO - Predicted Class: Unknown
+2024-10-11 13:33:28,752 - INFO - 127.0.0.1 - - [11/Oct/2024 13:33:28] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:33:59,620 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:59,621 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:33:59,938 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:40:51,217 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 13:40:51,217 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 13:40:51,245 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:40:53,780 - WARNING -  * Debugger is active!
+2024-10-11 13:40:53,788 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:41:08,550 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf']
+2024-10-11 13:41:12,616 - INFO - Predicted Class: NewsPaper
+2024-10-11 13:41:21,552 - INFO - 127.0.0.1 - - [11/Oct/2024 13:41:21] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:43:16,884 - INFO - 127.0.0.1 - - [11/Oct/2024 13:43:16] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-10-11 13:43:21,688 - INFO - Files received: ['house.pdf']
+2024-10-11 13:43:25,727 - INFO - Predicted Class: Contract
+2024-10-11 13:43:36,011 - INFO - 127.0.0.1 - - [11/Oct/2024 13:43:36] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:51:46,934 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:51:46,935 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 13:51:47,496 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 13:51:49,467 - WARNING -  * Debugger is active!
+2024-10-11 13:51:49,476 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 13:52:07,050 - INFO - Files received: ['temp.pdf']
+2024-10-11 13:52:10,433 - INFO - Predicted Class: Unknown
+2024-10-11 13:52:20,848 - INFO - 127.0.0.1 - - [11/Oct/2024 13:52:20] "POST /upload HTTP/1.1" 200 -
+2024-10-11 13:56:53,582 - INFO - Files received: ['The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha.pdf', 'KYCForm.pdf']
+2024-10-11 13:56:56,888 - INFO - Predicted Class: NewsPaper
+2024-10-11 13:56:59,227 - INFO - Predicted Class: Unknown
+2024-10-11 13:57:02,074 - INFO - Predicted Class: Unknown
+2024-10-11 13:57:04,370 - INFO - 127.0.0.1 - - [11/Oct/2024 13:57:04] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:01:31,938 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:01:31,942 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:01:31,942 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:01:32,826 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:01:35,807 - WARNING -  * Debugger is active!
+2024-10-11 14:01:35,815 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:01:41,745 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:01:41,747 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:01:42,777 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:01:45,701 - WARNING -  * Debugger is active!
+2024-10-11 14:01:45,708 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:03:47,786 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:03:47,792 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:03:48,249 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:03:50,963 - WARNING -  * Debugger is active!
+2024-10-11 14:03:50,971 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:04:04,880 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:04:04,880 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:04:05,289 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:04:13,345 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 14:04:13,346 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 14:04:13,368 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:04:15,439 - WARNING -  * Debugger is active!
+2024-10-11 14:04:15,447 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:05:07,604 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:07,607 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:07,607 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:08,047 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:05:10,784 - WARNING -  * Debugger is active!
+2024-10-11 14:05:10,790 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:05:20,297 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:20,299 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:20,300 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:20,828 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:05:23,375 - WARNING -  * Debugger is active!
+2024-10-11 14:05:23,381 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:05:26,952 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:26,953 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:26,954 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\zip_to_gcp.py', reloading
+2024-10-11 14:05:28,016 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:05:30,591 - WARNING -  * Debugger is active!
+2024-10-11 14:05:30,599 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:06:03,887 - INFO - Files received: ['Employee Equipment Agreement.pdf', 'Evergreen Contract Template.pdf']
+2024-10-11 14:06:07,539 - INFO - Predicted Class: Contract
+2024-10-11 14:06:09,965 - INFO - Predicted Class: Contract
+2024-10-11 14:06:11,255 - INFO - Processing folder: Contract
+2024-10-11 14:06:12,155 - INFO - Combined ZIP file uploaded: https://storage.googleapis.com/smartdoc-files-bucket/zipped_folders/all_folders_20241011-140611.zip
+2024-10-11 14:06:12,159 - INFO - 127.0.0.1 - - [11/Oct/2024 14:06:12] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:06:55,659 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:06:55,662 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:06:55,664 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:06:56,785 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:06:59,178 - WARNING -  * Debugger is active!
+2024-10-11 14:06:59,185 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:07:01,482 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-10-11 14:07:09,321 - INFO - Predicted Class: NewsPaper
+2024-10-11 14:07:12,360 - INFO - Predicted Class: NewsPaper
+2024-10-11 14:07:14,759 - INFO - Predicted Class: Letter
+2024-10-11 14:07:17,406 - INFO - Predicted Class: Letter
+2024-10-11 14:07:20,056 - INFO - Predicted Class: None
+2024-10-11 14:07:22,600 - INFO - Predicted Class: Letter
+2024-10-11 14:07:25,204 - INFO - Predicted Class: Letter
+2024-10-11 14:07:27,720 - INFO - Predicted Class: Form
+2024-10-11 14:07:32,196 - INFO - Predicted Class: Newspaper
+2024-10-11 14:07:34,789 - INFO - Predicted Class: Contract
+2024-10-11 14:07:35,900 - INFO - Processing folder: Form
+2024-10-11 14:07:36,038 - INFO - Processing folder: None
+2024-10-11 14:07:36,240 - INFO - Processing folder: Letter
+2024-10-11 14:07:36,639 - INFO - Processing folder: zipped_folders
+2024-10-11 14:07:36,859 - INFO - Processing folder: Newspaper
+2024-10-11 14:07:37,218 - INFO - Processing folder: Contract
+2024-10-11 14:07:37,530 - INFO - Processing folder: NewsPaper
+2024-10-11 14:07:45,912 - INFO - Combined ZIP file uploaded: https://storage.googleapis.com/smartdoc-files-bucket/zipped_folders/all_folders_20241011-140737.zip
+2024-10-11 14:07:45,922 - INFO - 127.0.0.1 - - [11/Oct/2024 14:07:45] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:09:40,208 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:09:40,210 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:09:40,211 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:09:40,705 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:09:43,198 - WARNING -  * Debugger is active!
+2024-10-11 14:09:43,208 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:13:47,702 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:13:47,702 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:13:47,704 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:13:48,449 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:13:50,660 - WARNING -  * Debugger is active!
+2024-10-11 14:13:50,667 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:14:05,427 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:05,429 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:05,430 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:06,016 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:14:07,749 - WARNING -  * Debugger is active!
+2024-10-11 14:14:07,754 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:14:10,633 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:10,636 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:10,637 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:14:11,238 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:14:13,556 - WARNING -  * Debugger is active!
+2024-10-11 14:14:13,564 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:14:29,683 - INFO - Files received: ['data.pdf', 'The Hindu PDF Epaper Free Download Online Daily.pdf', 'Cent_Suvidha - Copy.pdf', 'Cent_Suvidha.pdf', 'temp - Copy.pdf', 'temp.pdf', 'KYCForm - Copy.pdf', 'KYCForm.pdf', 'NewsPaper.pdf', 'abc.pdf']
+2024-10-11 14:14:38,211 - INFO - Predicted Class: News Release
+2024-10-11 14:14:40,770 - INFO - Predicted Class: NewsPaper
+2024-10-11 14:14:43,079 - INFO - Predicted Class: Letter
+2024-10-11 14:14:45,512 - INFO - Predicted Class: Letter
+2024-10-11 14:14:48,047 - INFO - Predicted Class: None
+2024-10-11 14:14:50,599 - INFO - Predicted Class: Application
+2024-10-11 14:14:53,161 - INFO - Predicted Class: Letter
+2024-10-11 14:14:55,627 - INFO - Predicted Class: Letter
+2024-10-11 14:14:59,560 - INFO - Predicted Class: Newspaper
+2024-10-11 14:15:01,913 - INFO - Predicted Class: Contract
+2024-10-11 14:15:03,225 - INFO - Processing folder: None
+2024-10-11 14:15:03,424 - INFO - Processing folder: Letter
+2024-10-11 14:15:03,913 - INFO - Processing folder: NewsPaper
+2024-10-11 14:15:04,449 - INFO - Processing folder: News Release
+2024-10-11 14:15:04,721 - INFO - Processing folder: Newspaper
+2024-10-11 14:15:04,958 - INFO - Processing folder: zipped_folders
+2024-10-11 14:15:05,591 - INFO - Processing folder: Application
+2024-10-11 14:15:05,727 - INFO - Processing folder: Contract
+2024-10-11 14:15:06,050 - INFO - Processing folder: Form
+2024-10-11 14:15:13,658 - INFO - Combined ZIP file uploaded: https://storage.googleapis.com/smartdoc-files-bucket/zipped_folders/all_folders_20241011-141506.zip
+2024-10-11 14:15:14,298 - INFO - Deleted blob: Application/temp.pdf
+2024-10-11 14:15:14,383 - INFO - Deleted blob: Contract/Employee Equipment Agreement.pdf
+2024-10-11 14:15:14,472 - INFO - Deleted blob: Contract/Evergreen Contract Template.pdf
+2024-10-11 14:15:14,538 - INFO - Deleted blob: Contract/abc.pdf
+2024-10-11 14:15:14,617 - INFO - Deleted blob: Form/KYCForm.pdf
+2024-10-11 14:15:14,699 - INFO - Deleted blob: Letter/Cent_Suvidha - Copy.pdf
+2024-10-11 14:15:14,787 - INFO - Deleted blob: Letter/Cent_Suvidha.pdf
+2024-10-11 14:15:14,862 - INFO - Deleted blob: Letter/KYCForm - Copy.pdf
+2024-10-11 14:15:14,928 - INFO - Deleted blob: Letter/KYCForm.pdf
+2024-10-11 14:15:15,027 - INFO - Deleted blob: Letter/temp.pdf
+2024-10-11 14:15:15,103 - INFO - Deleted blob: News Release/data.pdf
+2024-10-11 14:15:15,178 - INFO - Deleted blob: NewsPaper/The Hindu PDF Epaper Free Download Online Daily.pdf
+2024-10-11 14:15:15,264 - INFO - Deleted blob: NewsPaper/data.pdf
+2024-10-11 14:15:15,343 - INFO - Deleted blob: Newspaper/NewsPaper.pdf
+2024-10-11 14:15:15,423 - INFO - Deleted blob: None/temp - Copy.pdf
+2024-10-11 14:15:15,508 - INFO - Deleted blob: zipped_folders/all_folders_20241011-140611.zip
+2024-10-11 14:15:15,584 - INFO - Deleted blob: zipped_folders/all_folders_20241011-140737.zip
+2024-10-11 14:15:15,695 - INFO - Deleted blob: zipped_folders/all_folders_20241011-141506.zip
+2024-10-11 14:15:15,695 - INFO - All files in bucket smartdoc-files-bucket have been deleted.
+2024-10-11 14:15:15,698 - INFO - 127.0.0.1 - - [11/Oct/2024 14:15:15] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:18:32,758 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:18:32,759 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:18:32,760 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:18:33,531 - INFO -  * Restarting with watchdog (windowsapi)
