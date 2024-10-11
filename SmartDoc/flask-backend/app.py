@@ -98,6 +98,12 @@ def classify_document(file, file_name):
     
     return predicted_class, public_url
 
+@app.route('/api/test', methods=['GET'])
+def test_api():
+    return jsonify({"status": "success", "data": "This is a test API response!"})
+
+
+
 @app.route('/upload', methods=['POST'])
 def upload_files():
     if 'files' not in request.files:
@@ -131,4 +137,4 @@ def upload_files():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)

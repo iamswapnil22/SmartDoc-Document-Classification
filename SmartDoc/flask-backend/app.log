@@ -5068,3 +5068,46 @@
 2024-10-11 14:18:32,759 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-10-11 14:18:32,760 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-10-11 14:18:33,531 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:18:35,536 - WARNING -  * Debugger is active!
+2024-10-11 14:18:35,544 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:19:22,058 - INFO - Files received: ['Contract_abc.pdf', 'Contract_data.pdf', 'Resume202409110331 (1).pdf']
+2024-10-11 14:19:25,522 - INFO - Predicted Class: Contract
+2024-10-11 14:19:32,970 - INFO - Predicted Class: News Paper
+2024-10-11 14:19:35,588 - INFO - Predicted Class: Resume
+2024-10-11 14:19:36,980 - INFO - Processing folder: News Paper
+2024-10-11 14:19:37,599 - INFO - Processing folder: Contract
+2024-10-11 14:19:37,822 - INFO - Processing folder: Resume
+2024-10-11 14:19:39,321 - INFO - Combined ZIP file uploaded: https://storage.googleapis.com/smartdoc-files-bucket/zipped_folders/all_folders_20241011-141938.zip
+2024-10-11 14:19:39,326 - INFO - 127.0.0.1 - - [11/Oct/2024 14:19:39] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:37:18,284 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 14:37:18,284 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 14:37:18,299 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:37:20,256 - WARNING -  * Debugger is active!
+2024-10-11 14:37:20,263 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:37:46,357 - INFO - Files received: ['data.pdf']
+2024-10-11 14:37:55,164 - INFO - Predicted Class: NewsRelease
+2024-10-11 14:37:56,768 - INFO - Processing folder: NewsRelease
+2024-10-11 14:37:57,175 - INFO - Processing folder: News Paper
+2024-10-11 14:37:57,419 - INFO - Processing folder: Resume
+2024-10-11 14:37:57,626 - INFO - Processing folder: zipped_folders
+2024-10-11 14:37:57,888 - INFO - Processing folder: Contract
+2024-10-11 14:38:06,544 - INFO - Combined ZIP file uploaded: https://storage.googleapis.com/smartdoc-files-bucket/zipped_folders/all_folders_20241011-143758.zip
+2024-10-11 14:38:06,550 - INFO - 127.0.0.1 - - [11/Oct/2024 14:38:06] "POST /upload HTTP/1.1" 200 -
+2024-10-11 14:54:10,263 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:54:10,264 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:54:10,264 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 14:54:11,438 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 14:54:13,098 - WARNING -  * Debugger is active!
+2024-10-11 14:54:13,104 - INFO -  * Debugger PIN: 122-173-812
+2024-10-11 14:54:57,961 - INFO - 127.0.0.1 - - [11/Oct/2024 14:54:57] "GET /api/test HTTP/1.1" 200 -
+2024-10-11 14:54:58,024 - INFO - 127.0.0.1 - - [11/Oct/2024 14:54:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 14:58:40,708 - INFO - 127.0.0.1 - - [11/Oct/2024 14:58:40] "GET /api/test HTTP/1.1" 200 -
+2024-10-11 14:58:47,567 - INFO - 127.0.0.1 - - [11/Oct/2024 14:58:47] "GET /api/test HTTP/1.1" 200 -
+2024-10-11 15:03:25,676 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,677 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,677 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,738 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,739 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,739 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
+2024-10-11 15:03:25,970 - INFO -  * Restarting with watchdog (windowsapi)
