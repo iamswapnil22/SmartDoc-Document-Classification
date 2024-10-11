@@ -5111,3 +5111,5 @@
 2024-10-11 15:03:25,739 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-10-11 15:03:25,739 - INFO -  * Detected change in 'D:\\Similar-Document-Template-Matching-Algorithm\\SmartDoc\\flask-backend\\app.py', reloading
 2024-10-11 15:03:25,970 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-11 15:04:02,438 - INFO - 127.0.0.1 - - [11/Oct/2024 15:04:02] "GET /api/test HTTP/1.1" 200 -
+2024-10-11 15:04:08,505 - INFO - 127.0.0.1 - - [11/Oct/2024 15:04:08] "GET /api/test HTTP/1.1" 200 -
